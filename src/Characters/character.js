@@ -36,22 +36,119 @@ module.exports = class Character {
             Skill: {
                 Acrobatics: {
                     Stat: 'Dexterity',
-                    Proficient: false
+                    Proficient: false,
+                    Expertise: false
                 },
                 AnimalHandling: {
                     Stat: 'Wisdom',
-                    Proficient: false
+                    Proficient: false,
+                    Expertise: false
                 },
                 Arcana: {
                     Stat: 'Intelligence',
-                    Proficient: false
+                    Proficient: false,
+                    Expertise: false
                 }, 
                 Athletics: {
                     Stat: 'Strength',
-                    Proficient: false
+                    Proficient: false,
+                    Expertise: false
                 },
                 Deception: {
-                    
+                    Stat: 'Charisma',
+                    Proficient: false,
+                    Expertise: false
+                },
+                History: {
+                    Stat: 'Intelligence',
+                    Proficient: false,
+                    Expertise: false
+                },
+                Insight: {
+                    Stat: 'Wisdom',
+                    Proficient: false,
+                    Expertise: false
+                },
+                Intimidation: {
+                    Stat: 'Charisma',
+                    Proficient: false,
+                    Expertise: false
+                },
+                Investigation: {
+                    Stat: 'Intelligence',
+                    Proficient: false,
+                    Expertise: false
+                },
+                Medicine: {
+                    Stat: 'Wisdom',
+                    Proficient: false,
+                    Expertise: false
+                },
+                Nature: {
+                    Stat: 'Intelligence',
+                    Proficient: false,
+                    Expertise: false
+                },
+                Perception: {
+                    Stat: 'Wisdom',
+                    Proficient: false,
+                    Expertise: false
+                },
+                Performance: {
+                    Stat: 'Charisma',
+                    Proficient: false,
+                    Expertise: false
+                },
+                Persuasion: {
+                    Stat: 'Charisma',
+                    Proficient: false,
+                    Expertise: false
+                },
+                Religion: {
+                    Stat: 'Intelligence',
+                    Proficient: false,
+                    Expertise: false
+                },
+                SleightOfHand: {
+                    Stat: 'Dexterity',
+                    Proficient: false,
+                    Expertise: false
+                },
+                Stealth: {
+                    Stat: 'Dexterity',
+                    Proficient: false,
+                    Expertise: false
+                },
+                Survival: {
+                    Stat: 'Wisdom',
+                    Proficient: false,
+                    Expertise: false
+                }
+            },
+            SavingThrow: {
+                Strength: {
+                    Stat: 'Strength',
+                    Proficient: false
+                },
+                Dexterity: {
+                    Stat: 'Dexterity',
+                    Proficient: false
+                },
+                Constitution: {
+                    Stat: 'Constitution',
+                    Proficient: false
+                },
+                Wisdom: {
+                    Stat: 'Wisdom',
+                    Proficient: false
+                },
+                Intelligence: {
+                    Stat: 'Intelligence',
+                    Proficient: false
+                },
+                Charisma: {
+                    Stat: 'Charisma',
+                    Proficient: false
                 }
             }
         }
