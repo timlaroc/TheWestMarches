@@ -1,0 +1,3534 @@
+{
+  "_id" : "snekfetch",
+  "_rev" : "93-069a3e51488496ddfaeda41a61e97447",
+  "name" : "snekfetch",
+  "description" : "Just do http requests without all that weird nastiness from other libs",
+  "dist-tags" : {
+    "next" : "4.0.0-beta.1",
+    "latest" : "4.0.4"
+  },
+  "versions" : {
+    "3.4.0-rc" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.4.0-rc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.4.0-rc.tgz",
+        "shasum" : "e26468960e4edf99e97cf310243a85dded507d60"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.4.0-rc",
+      "gitHead" : "b555054de419a8153f0450bfe31697df71edda25",
+      "browser" : {
+        "./src/node/index.js" : false
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.4.0-rc.tgz_1506200296768_0.1465224379207939"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "4.0.0-beta.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "4.0.0-beta.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "src/index",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-4.0.0-beta.0.tgz",
+        "shasum" : "e98367c572d9dafb1923ba01a41d5fc0bb3a4b5b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@snek/syncify" : "0.0.6",
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "^2.0.0",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --cache --ext=mjs,js",
+        "test" : "npm run lint && node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack",
+        "prepublishOnly" : "npm run lint && npm run test && npm run build:browser"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@4.0.0-beta.0",
+      "gitHead" : "5948edd824388d4e2b88b85caf9619e6c64ed56c",
+      "module" : "src/index.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch_4.0.0-beta.0_1519871498292_0.5997516638866476"
+      },
+      "jsdelivr" : "browser.js",
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "3.1.4" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.1.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.1.4.tgz",
+        "shasum" : "5f6859b8fa96d12928f34b023b70269c3f048ed6"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.1.4",
+      "gitHead" : "8608de3d1af3e8eec3c9a36b710dca72e572a728",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-3.1.4.tgz_1493189429873_0.9134790860116482"
+      },
+      "_shasum" : "5f6859b8fa96d12928f34b023b70269c3f048ed6",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.5.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.5.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.5.0.tgz",
+        "shasum" : "eadc17ea744dcb478ef53544ee0cf6163533db22"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.5.0",
+      "gitHead" : "39ab0a451cdf228d29480c9ef3288bae0223866e",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.5.0.tgz_1507664373384_0.06993030337616801"
+      },
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "4.0.0-beta.1" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "4.0.0-beta.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "src/index",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-4.0.0-beta.1.tgz",
+        "shasum" : "eed04cac5288e83dbb5a75319ee9c7ea6d411e97"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@snek/syncify" : "0.0.6",
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "^2.0.0",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --cache --ext=mjs,js",
+        "test" : "npm run lint && node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack",
+        "prepublishOnly" : "npm run lint && npm run test && npm run build:browser"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@4.0.0-beta.1",
+      "gitHead" : "57b4e674157760a2de56b1108590fdc0c2326e55",
+      "module" : "src/index.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch_4.0.0-beta.1_1521077016416_0.5568750236264666"
+      },
+      "readme" : "[![npm][download-badge]][npm]\n[![David][dep-badge]][dep-link]\n[![Coverage Status][coverage-badge]][coverage-link]\n[![Build Status][build-badge]][build-link]\n\n[![NPM][large-badge]][stats-link]\n\n# snekfetch <sup>[![Version Badge][version-badge]][npm]</sup>\n\nSnekfetch is a fast, efficient, and user-friendly library for making HTTP requests.\n\nIt also supports native alpn negotation in node for effecient http/2 requests!\n\nThe API was inspired by superagent, however it is much smaller and faster.\nIn fact, in browser, it is a mere 4.0kb.\n\nDocumentation is available at https://snekfetch.js.org/\n\n## Some examples\n\n```javascript\nconst request = require('snekfetch');\n\nrequest.post('https://httpbin.org/post')\n  .send({ usingGoodRequestLibrary: true })\n  .then(r => console.log(r.body)); // r.body is object from json response\n\nrequest.get('https://s.gc.gy/o-SNAKES.jpg')\n  .then(r => fs.writeFile('download.jpg', r.body)); // r.body is buffer\n\nrequest.get('https://s.gc.gy/o-SNAKES.jpg')\n  .pipe(fs.createWriteStream('download.jpg')); // pipes\n```\n\nAvailable for browser as UMD from [unpkg][unpkg-link]\n```html\n<script src=https://unpkg.com/snekfetch></script>\n```\n\n[npm]: https://npmjs.org/package/snekfetch\n[large-badge]: https://nodei.co/npm/snekfetch.png?downloads=true&downloadRank=true&stars=true\n[stats-link]: https://nodei.co/npm/snekfetch/\n[version-badge]: https://versionbadge.now.sh/snekfetch.svg\n[download-badge]: https://img.shields.io/npm/dt/snekfetch.svg?maxAge=3600\n[build-badge]: https://api.travis-ci.org/devsnek/snekfetch.svg?branch=master\n[build-link]: https://travis-ci.org/devsnek/snekfetch\n[dep-badge]: https://david-dm.org/devsnek/snekfetch.svg\n[dep-link]: https://david-dm.org/devsnek/snekfetch\n[coverage-badge]: https://coveralls.io/repos/github/devsnek/snekfetch/badge.svg?branch=master\n[coverage-link]: https://coveralls.io/github/devsnek/snekfetch?branch=master\n[unpkg-link]: https://unpkg.com/\n",
+      "readmeFilename" : "README.md",
+      "jsdelivr" : "browser.js",
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "9.8.0"
+    },
+    "3.1.5" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.1.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.1.5.tgz",
+        "shasum" : "2dc5f07d14516270437262600bdf5de9748d9994"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.1.5",
+      "gitHead" : "6679e138e66f50b3843ba207fc5b0dda1bc76e95",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-3.1.5.tgz_1493190853066_0.6845311007928103"
+      },
+      "_shasum" : "2dc5f07d14516270437262600bdf5de9748d9994",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.5.1" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.5.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.5.1.tgz",
+        "shasum" : "92b3b39a06495e8d9672787afd22820b49f58fb6"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.5.1",
+      "gitHead" : "f28879f84c7224c49df68c09a5f4ea9377ee2695",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.5.1.tgz_1507685342463_0.6855199923738837"
+      },
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "3.1.6" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.1.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.1.6.tgz",
+        "shasum" : "3090d5cd3f5bc1e456f8aafa5024f64b7ca5b1e0"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.1.6",
+      "gitHead" : "b03a6bb7d3b73ac3a4b27c7cfffcfbaa87d38700",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-3.1.6.tgz_1493569353717_0.8596337598282844"
+      },
+      "_shasum" : "3090d5cd3f5bc1e456f8aafa5024f64b7ca5b1e0",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.5.2" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.5.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.5.2.tgz",
+        "shasum" : "aec6f2a7d2c43b9ed942653d1074070a2c1cae50"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.5.2",
+      "gitHead" : "9cbbb5742ece337d0b2f3d068736cffe607e3bd4",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.5.2.tgz_1508012228054_0.029665509006008506"
+      },
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "8.7.0"
+    },
+    "3.1.7" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.1.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.1.7.tgz",
+        "shasum" : "5eb980d29c3b455bf0b13359647909b0737315e9"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.1.7",
+      "gitHead" : "f47ae6179addc843c76041a5b0a1013c67759729",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-3.1.7.tgz_1494815163487_0.09571001585572958"
+      },
+      "_shasum" : "5eb980d29c3b455bf0b13359647909b0737315e9",
+      "_nodeVersion" : "8.0.0-rc.0"
+    },
+    "3.5.3" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.5.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.5.3.tgz",
+        "shasum" : "9e2cb933cd4157a5bf541e302b57abf969d835dc"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.5.3",
+      "gitHead" : "7da75cf2d21454824cdf803880f94c582ccdc6a7",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.5.3.tgz_1508471528515_0.9804776050150394"
+      },
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "8.7.0"
+    },
+    "3.1.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.1.0.tgz",
+        "shasum" : "15eb42cc45bcaea388162c94d68007e1840e6262"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.1.0",
+      "gitHead" : "89ee801ae233177b8cbca8e1fd02cd9915264e2b",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-3.1.0.tgz_1492717158387_0.8936493017245084"
+      },
+      "_shasum" : "15eb42cc45bcaea388162c94d68007e1840e6262",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.1.1" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.1.1.tgz",
+        "shasum" : "dcfee0d0c64b193e8741db168d86bfb200bb8850"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "crawl",
+        "email" : "icrawltogo@gmail.com"
+      },
+      "_id" : "snekfetch@3.1.1",
+      "gitHead" : "8a8b2eba604450363bf80e8e0caac97157f15820",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-3.1.1.tgz_1492865526415_0.9978627415839583"
+      },
+      "_shasum" : "dcfee0d0c64b193e8741db168d86bfb200bb8850",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.1.2" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.1.2.tgz",
+        "shasum" : "3422a9191c1bb6610867db88e669db0b5adb7f42"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "crawl",
+        "email" : "icrawltogo@gmail.com"
+      },
+      "_id" : "snekfetch@3.1.2",
+      "gitHead" : "a79f6867d21ca58ffe6fc59eb77b06f257f8ad29",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-3.1.2.tgz_1492882967312_0.8088863184675574"
+      },
+      "_shasum" : "3422a9191c1bb6610867db88e669db0b5adb7f42",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.3.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.3.0.tgz",
+        "shasum" : "97aa0d79d5920f18c26d4c8a7fddbe91205ad0fa"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.3.0",
+      "gitHead" : "7b4fff64301580b46668d46e45a88fbd0330b055",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.3.0.tgz_1504416679797_0.3850039339158684"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "3.1.3" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.1.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.1.3.tgz",
+        "shasum" : "6990f9fabe7a25d49923b5cf54d91dc5e418132d"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "crawl",
+        "email" : "icrawltogo@gmail.com"
+      },
+      "_id" : "snekfetch@3.1.3",
+      "gitHead" : "43e23127bb29b5660e04c2431a5c5f3cfc8d9f24",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-3.1.3.tgz_1492885525885_0.5018694943282753"
+      },
+      "_shasum" : "6990f9fabe7a25d49923b5cf54d91dc5e418132d",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.3.1" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.3.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.3.1.tgz",
+        "shasum" : "adde572c4d4675753dfe75b2f5c069dd1c35910a"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.3.1",
+      "gitHead" : "a0b55c1fac15e333602b0fdc6b07fdf05e4e69c4",
+      "browser" : {
+        "http2" : false,
+        "fs" : false,
+        "src/transports/file.js" : false,
+        "src/transports/http2.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.3.1.tgz_1506026379701_0.8938868716359138"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "2.1.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "2.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-2.1.0.tgz",
+        "shasum" : "1d3e23688d0e3697996c026f6c7ff5759279a8fc"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@2.1.0",
+      "gitHead" : "bb1488060c1d330353f779daecdeff4b4dc19460",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-2.1.0.tgz_1491541283394_0.015936202369630337"
+      },
+      "_shasum" : "1d3e23688d0e3697996c026f6c7ff5759279a8fc",
+      "_nodeVersion" : "7.7.4"
+    },
+    "3.2.7" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.2.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.2.7.tgz",
+        "shasum" : "7f070779c2ad8653cd826ffe69d0143a90cf8318"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.2.7",
+      "gitHead" : "050c91b0d170394789416a70b114ecafa247becd",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.2.7.tgz_1502286525952_0.3800294101238251"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "3.4.5" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.4.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.4.5.tgz",
+        "shasum" : "c28deb5e5d04988ea6915ca6f67c6e3429c0e52f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "docdash" : "^0.4.0",
+        "eslint" : "^4.8.0",
+        "jsdoc" : "github:jsdoc3/jsdoc",
+        "jsdoc-dynamic" : "^1.0.3",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint --fix src",
+        "test" : "npx eslint src",
+        "docs" : "npx jsdoc -c jsdoc.json -R README.md"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.4.5",
+      "gitHead" : "0f404fc2f21e91be332843ef390f3834777035de",
+      "browser" : {
+        "./src/node/index.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.4.5.tgz_1507264235225_0.9419543005060405"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "3.6.3" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.6.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.6.3.tgz",
+        "shasum" : "d1faf3bfbb71ddedc0c2ede2d8c473695c380ceb"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint **/*.js",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack",
+        "prepublish" : "npm run build:browser"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.6.3",
+      "gitHead" : "92e76efc21f0d37f3a08246274ffca84c57ce1f1",
+      "module" : "esm.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.6.3.tgz_1517172989028_0.4280005535110831"
+      },
+      "jsdelivr" : "browser.js",
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "3.2.8" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.2.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.2.8.tgz",
+        "shasum" : "49848da8f39e4445e74f51c6c9b679d039d00efc"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.2.8",
+      "gitHead" : "a02c170f3ba279d7962a7b0c63453648608bd0ae",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.2.8.tgz_1502286666597_0.22104774555191398"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "3.6.4" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.6.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.6.4.tgz",
+        "shasum" : "d13e80a616d892f3d38daae4289f4d258a645120"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@snek/syncify" : "0.0.6",
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint **/*.js",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack",
+        "prepublishOnly" : "npm run build:browser"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.6.4",
+      "gitHead" : "591fe305b7f99b17683fc44ee8c9078ed244a38a",
+      "module" : "esm.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.6.4.tgz_1517634941405_0.8171007907949388"
+      },
+      "jsdelivr" : "browser.js",
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "3.2.9" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.2.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.2.9.tgz",
+        "shasum" : "cdd28c7e88c889d86b9ff289a8e985a2f484f206"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.2.9",
+      "gitHead" : "f27aa2406a5eeeaec6aa12b478ed14c06e0081c2",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.2.9.tgz_1502397530036_0.7384154363535345"
+      },
+      "_nodeVersion" : "8.3.0"
+    },
+    "2.3.1" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "2.3.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-2.3.1.tgz",
+        "shasum" : "c8dba161e529816d011d4f4ef6ea4f54d3330e92"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@2.3.1",
+      "gitHead" : "74691422b4db8346ed12ee96c59e1f03d7666693",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-2.3.1.tgz_1492390124341_0.7829065604601055"
+      },
+      "_shasum" : "c8dba161e529816d011d4f4ef6ea4f54d3330e92",
+      "_nodeVersion" : "7.9.0"
+    },
+    "2.3.2" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "2.3.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-2.3.2.tgz",
+        "shasum" : "942458489086fb9bde5de08f422998deac3568ca"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@2.3.2",
+      "gitHead" : "3907b7ea21de2e3001b5640a7f1771f6fbd7f6f8",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-2.3.2.tgz_1492408008832_0.30578699498437345"
+      },
+      "_shasum" : "942458489086fb9bde5de08f422998deac3568ca",
+      "_nodeVersion" : "7.8.0"
+    },
+    "2.3.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "2.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-2.3.0.tgz",
+        "shasum" : "9d226fca0185c8bb59534e2617292769cc817ea1"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@2.3.0",
+      "gitHead" : "34a35250e8189b023c929d9ffe4abfd1b08b9684",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-2.3.0.tgz_1492374522346_0.89195795240812"
+      },
+      "_shasum" : "9d226fca0185c8bb59534e2617292769cc817ea1",
+      "_nodeVersion" : "7.9.0"
+    },
+    "1.1.0" : {
+      "name" : "snekfetch",
+      "description" : "It's like superagent but without all the shitcode and shitdeps.",
+      "version" : "1.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-1.1.0.tgz",
+        "shasum" : "4622a541b062e081b4340c21752503e2ed83cb59"
+      },
+      "dependencies" : {
+        "node-fetch" : "^2.0.0-alpha.3"
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@1.1.0",
+      "gitHead" : "979e81b2eed6ca3277d15b3e39fd0c3c3be369d1",
+      "browser" : {
+        "node-fetch" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-1.1.0.tgz_1491201582707_0.9533664307091385"
+      },
+      "_shasum" : "4622a541b062e081b4340c21752503e2ed83cb59",
+      "_nodeVersion" : "7.7.4"
+    },
+    "1.1.1" : {
+      "name" : "snekfetch",
+      "description" : "It's like superagent but without all the shitcode and shitdeps.",
+      "version" : "1.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-1.1.1.tgz",
+        "shasum" : "9da2ea5d0ae2bb2b4bffc3a3ae79eb27d3bd0026"
+      },
+      "dependencies" : {
+        "node-fetch" : "^2.0.0-alpha.3"
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@1.1.1",
+      "gitHead" : "8a9812dd8382514960960b9425c9cd8ba7e92a9d",
+      "browser" : {
+        "node-fetch" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-1.1.1.tgz_1491238331992_0.15655293432064354"
+      },
+      "_shasum" : "9da2ea5d0ae2bb2b4bffc3a3ae79eb27d3bd0026",
+      "_nodeVersion" : "7.7.4"
+    },
+    "4.0.2" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "4.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git",
+        "homepage" : "https://github.com/devsnek/snekfetch"
+      },
+      "main" : "src/index",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-4.0.2.tgz",
+        "shasum" : "fa1de5d363c5cd81422c0659a6fdc9793a0df399"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@snek/syncify" : "0.0.6",
+        "babel-eslint" : "^8.2.3",
+        "coveralls" : "^3.0.1",
+        "docma" : "^2.1.0",
+        "eslint" : "^4.19.1",
+        "eslint-config-airbnb" : "^16.1.0",
+        "eslint-plugin-import" : "^2.11.0",
+        "eslint-plugin-jsx-a11y" : "^6.0.3",
+        "eslint-plugin-react" : "^7.7.0",
+        "form-data" : "^2.3.2",
+        "install-peerdeps" : "^1.6.0",
+        "jest" : "^22.4.3",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "^2.1.2",
+        "webpack" : "^4.8.1",
+        "webpack-cli" : "^2.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "setup" : "install-peerdeps --dev eslint-config-airbnb",
+        "lint" : "eslint --ext=mjs,js src test sync.js webpack.config.js",
+        "test" : "node ./node_modules/.bin/jest",
+        "coverage" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack-cli",
+        "prepublishOnly" : "npm run lint && npm run test && npm run build:browser"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@4.0.2",
+      "gitHead" : "b9d53f555599e471eb29a5e033fb22d946600d6b",
+      "module" : "src/index.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch_4.0.2_1528327666638_0.12826718537720505"
+      },
+      "jsdelivr" : "browser.js",
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "4.0.3" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "4.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git",
+        "homepage" : "https://github.com/devsnek/snekfetch"
+      },
+      "main" : "src/index",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-4.0.3.tgz",
+        "shasum" : "1198fb95941ac8aa3b44264cfc8520c1fdecb8fb"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@snek/syncify" : "0.0.6",
+        "babel-eslint" : "^8.2.3",
+        "coveralls" : "^3.0.1",
+        "docma" : "^2.1.0",
+        "eslint" : "^4.19.1",
+        "eslint-config-airbnb" : "^16.1.0",
+        "eslint-plugin-import" : "^2.11.0",
+        "eslint-plugin-jsx-a11y" : "^6.0.3",
+        "eslint-plugin-react" : "^7.7.0",
+        "form-data" : "^2.3.2",
+        "install-peerdeps" : "^1.6.0",
+        "jest" : "^22.4.3",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "^2.1.2",
+        "webpack" : "^4.8.1",
+        "webpack-cli" : "^2.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "setup" : "install-peerdeps --dev eslint-config-airbnb",
+        "lint" : "eslint --ext=mjs,js src test sync.js webpack.config.js",
+        "test" : "node ./node_modules/.bin/jest",
+        "coverage" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack-cli",
+        "prepublishOnly" : "npm run lint && npm run test && npm run build:browser",
+        "changelog" : "git log dd0c84b^..HEAD --pretty=format:'* [[`%h`](https://github.com/devsnek/snekfetch/commit/%H)] - %s' > CHANGELOG.md"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@4.0.3",
+      "gitHead" : "9fef33367056c5e7b9f999ee407817a5a1d8765a",
+      "module" : "src/index.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch_4.0.3_1529291330767_0.07775206828134062"
+      },
+      "jsdelivr" : "browser.js",
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "4.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git",
+        "homepage" : "https://github.com/devsnek/snekfetch"
+      },
+      "main" : "src/index",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-4.0.0.tgz",
+        "shasum" : "949b066de47a5bd70d39d7b0a3a7fcd9ee1156a1"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@snek/syncify" : "0.0.6",
+        "babel-eslint" : "^8.2.2",
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.19.1",
+        "eslint-config-airbnb" : "^16.1.0",
+        "eslint-plugin-import" : "^2.10.0",
+        "eslint-plugin-jsx-a11y" : "^6.0.3",
+        "eslint-plugin-react" : "^7.7.0",
+        "form-data" : "^2.3.2",
+        "install-peerdeps" : "^1.6.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "^2.1.2",
+        "uglifyjs-webpack-plugin" : "^1.2.4",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "setup" : "install-peerdeps --dev eslint-config-airbnb",
+        "lint" : "eslint --ext=mjs,js src test sync.js webpack.config.js",
+        "test" : "node ./node_modules/.bin/jest",
+        "coverage" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack",
+        "prepublishOnly" : "npm run lint && npm run test && npm run build:browser"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@4.0.0",
+      "gitHead" : "834d3ab39edfb1cfe9de57949f4f0ad430117b43",
+      "module" : "src/index.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch_4.0.0_1524600684688_0.10617932465879965"
+      },
+      "jsdelivr" : "browser.js",
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "4.0.1" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "4.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git",
+        "homepage" : "https://github.com/devsnek/snekfetch"
+      },
+      "main" : "src/index",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-4.0.1.tgz",
+        "shasum" : "679d82632882a0b2ccf17fc3cc18acd2e135356e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@snek/syncify" : "0.0.6",
+        "babel-eslint" : "^8.2.3",
+        "coveralls" : "^3.0.1",
+        "docma" : "^2.1.0",
+        "eslint" : "^4.19.1",
+        "eslint-config-airbnb" : "^16.1.0",
+        "eslint-plugin-import" : "^2.11.0",
+        "eslint-plugin-jsx-a11y" : "^6.0.3",
+        "eslint-plugin-react" : "^7.7.0",
+        "form-data" : "^2.3.2",
+        "install-peerdeps" : "^1.6.0",
+        "jest" : "^22.4.3",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "^2.1.2",
+        "webpack" : "^4.8.1",
+        "webpack-cli" : "^2.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "setup" : "install-peerdeps --dev eslint-config-airbnb",
+        "lint" : "eslint --ext=mjs,js src test sync.js webpack.config.js",
+        "test" : "node ./node_modules/.bin/jest",
+        "coverage" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack-cli",
+        "prepublishOnly" : "npm run lint && npm run test && npm run build:browser"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@4.0.1",
+      "gitHead" : "32c5da60a2c0401ee6b66cc4a5caa86c3aa20ec8",
+      "module" : "src/index.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch_4.0.1_1528168756974_0.9030175023636546"
+      },
+      "jsdelivr" : "browser.js",
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "4.0.0-rc.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "src/index",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-4.0.0-rc.0.tgz",
+        "shasum" : "31e9d4e8d2dec790833036e51d55ac27f34d8cba"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@snek/syncify" : "0.0.6",
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "^2.0.0",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --cache --ext=mjs,js",
+        "test" : "npm run lint && node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack",
+        "prepublishOnly" : "npm run lint && npm run test && npm run build:browser"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@4.0.0-rc.0",
+      "gitHead" : "aff503aa616d00bc469c18e6fb87eb88d5e78864",
+      "module" : "src/index.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch_4.0.0-rc.0_1519419424606_0.6806478313088389"
+      },
+      "jsdelivr" : "browser.js",
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "4.0.4" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "4.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git",
+        "homepage" : "https://github.com/devsnek/snekfetch"
+      },
+      "main" : "src/index",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-4.0.4.tgz",
+        "shasum" : "e76a03b8476699a1f0c036d6567e386ce5fbde8e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@snek/syncify" : "0.0.6",
+        "babel-eslint" : "^8.2.3",
+        "coveralls" : "^3.0.1",
+        "docma" : "^2.1.0",
+        "eslint" : "^4.19.1",
+        "eslint-config-airbnb" : "^16.1.0",
+        "eslint-plugin-import" : "^2.11.0",
+        "eslint-plugin-jsx-a11y" : "^6.0.3",
+        "eslint-plugin-react" : "^7.7.0",
+        "form-data" : "^2.3.2",
+        "install-peerdeps" : "^1.6.0",
+        "jest" : "^22.4.3",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "^2.1.2",
+        "webpack" : "^4.8.1",
+        "webpack-cli" : "^2.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "setup" : "install-peerdeps --dev eslint-config-airbnb",
+        "lint" : "eslint --ext=mjs,js src test sync.js webpack.config.js",
+        "test" : "node ./node_modules/.bin/jest",
+        "coverage" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack-cli",
+        "prepublishOnly" : "npm run lint && npm run test && npm run build:browser",
+        "changelog" : "git log dd0c84b^..HEAD --pretty=format:'* [[`%h`](https://github.com/devsnek/snekfetch/commit/%H)] - %s' > CHANGELOG.md"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@4.0.4",
+      "gitHead" : "b0014a3109a64fde9dcd5b65a1a5d8b493d38fac",
+      "module" : "src/index.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch_4.0.4_1529347591038_0.23272225858842166"
+      },
+      "jsdelivr" : "browser.js",
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "3.0.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.0.0.tgz",
+        "shasum" : "f8b4710990acbf043d56ab1089dba88017f97167"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.0.0",
+      "gitHead" : "63a0abb0a5863e6cbb19919eb7f5438b8711e142",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-3.0.0.tgz_1492547076244_0.5367329944856465"
+      },
+      "_shasum" : "f8b4710990acbf043d56ab1089dba88017f97167",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.2.3" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.2.3.tgz",
+        "shasum" : "63c6fe27e44f1303c5d95cfb7642f840813cc334"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.0.4",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.2.3",
+      "gitHead" : "139f09f32a670371f07cb78215eab9385d12f41e",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.2.3.tgz_1499400596827_0.714862740598619"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "3.4.1" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.4.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.4.1.tgz",
+        "shasum" : "f490de440b1e57c16eb131b3e85fe289f5cdf973"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.4.1",
+      "gitHead" : "e9addda1930529c112823a16dc90773df8756775",
+      "browser" : {
+        "./src/node/index.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.4.1.tgz_1506438432964_0.8481286489404738"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "3.2.4" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.2.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.2.4.tgz",
+        "shasum" : "74fed1f0530e312e5b08ecb189a529c14727afaf"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.1.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.2.4",
+      "gitHead" : "b0b160bed114bcc9d71932eac8cbb741351e212c",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.2.4.tgz_1499670791905_0.8416048854123801"
+      },
+      "_nodeVersion" : "8.1.3"
+    },
+    "3.4.2" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.4.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.4.2.tgz",
+        "shasum" : "6fe6a1d22d0e21e024e28017cb41e30a9c01926d"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.4.2",
+      "gitHead" : "f011cc0d2236468ea9a61ba7f1a6fd9254d2ef0f",
+      "browser" : {
+        "./src/node/index.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.4.2.tgz_1506817639608_0.23751078336499631"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "3.6.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.6.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.6.0.tgz",
+        "shasum" : "f4f64064168d5b10aff7e9945d6d2932fda1aa54"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack",
+        "prepublish" : "npm run build:browser"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.6.0",
+      "gitHead" : "014f4bd1ad73254f69510d24290d549bd420e653",
+      "module" : "esm.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.6.0.tgz_1512162858937_0.8972474809270352"
+      },
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "3.4.3" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.4.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.4.3.tgz",
+        "shasum" : "243e7c459822693e0a1f336e49f9d4db385baa8e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "docdash" : "^0.4.0",
+        "eslint" : "^4.8.0",
+        "jsdoc" : "github:jsdoc3/jsdoc",
+        "jsdoc-dynamic" : "^1.0.2",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint --fix src",
+        "test" : "npx eslint src",
+        "docs" : "npx jsdoc -c jsdoc.json -R README.md"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.4.3",
+      "gitHead" : "5081c2f859baed1cc1cb56af7427c7116a0255ac",
+      "browser" : {
+        "./src/node/index.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.4.3.tgz_1506979271593_0.3152693009469658"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "3.6.1" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.6.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.6.1.tgz",
+        "shasum" : "9b77fa946cfa15c7041940593a2689dc547427ea"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack",
+        "prepublish" : "npm run build:browser"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.6.1",
+      "gitHead" : "ac841a9405292502aad905ec3c63ce28ddd82f24",
+      "module" : "esm.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.6.1.tgz_1512521936072_0.6785762289073318"
+      },
+      "jsdelivr" : "browser.js",
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "3.2.6" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.2.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.2.6.tgz",
+        "shasum" : "099fae0d58dfcca12a91dbce8fbbf7504899ee59"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.2.6",
+      "gitHead" : "75b69ad1f653c57d15d4cc4a68f4968a04e6c6f0",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.2.6.tgz_1502165190691_0.3685261660721153"
+      },
+      "_nodeVersion" : "8.2.0"
+    },
+    "3.4.4" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.4.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.4.4.tgz",
+        "shasum" : "b97ad6acd81da1a6241849eee32b15876d93e6e1"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "docdash" : "^0.4.0",
+        "eslint" : "^4.8.0",
+        "jsdoc" : "github:jsdoc3/jsdoc",
+        "jsdoc-dynamic" : "^1.0.2",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint --fix src",
+        "test" : "npx eslint src",
+        "docs" : "npx jsdoc -c jsdoc.json -R README.md"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.4.4",
+      "gitHead" : "d089ab751bfd447c7178081a9a8e92961c05b667",
+      "browser" : {
+        "./src/node/index.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.4.4.tgz_1506999670015_0.5126843834295869"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "3.6.2" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.6.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.6.2.tgz",
+        "shasum" : "1a6cbf36f890b7d478e100469789e1c4e663083c"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint **/*.js",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack",
+        "prepublish" : "npm run build:browser"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.6.2",
+      "gitHead" : "f85d9d66f29030d33bec485715943588874c7337",
+      "module" : "esm.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.6.2.tgz_1517079321143_0.3573258745018393"
+      },
+      "jsdelivr" : "browser.js",
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "3.0.1" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.0.1.tgz",
+        "shasum" : "745e62f545fd554feb194d5a18db1acb009e909d"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.0.1",
+      "gitHead" : "572e34c14bd1b78a6287091cfc54784d49a90dc9",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-3.0.1.tgz_1492578957273_0.09287812723778188"
+      },
+      "_shasum" : "745e62f545fd554feb194d5a18db1acb009e909d",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.0.2" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.0.2.tgz",
+        "shasum" : "00b313cb61012d12f05a25290416ac77a939aa69"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.0.2",
+      "gitHead" : "224554f658db6489deb253b327fbaa53d839c2ca",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-3.0.2.tgz_1492631911426_0.5569550881627947"
+      },
+      "_shasum" : "00b313cb61012d12f05a25290416ac77a939aa69",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.2.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.2.0.tgz",
+        "shasum" : "f0cfc65abe9b3c2d906b24bd134fd06ec6ae785c"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.2.0",
+      "gitHead" : "ae936f50d748e77f82905f64ece925e00fdbbb3a",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.2.0.tgz_1499061844392_0.5013192698825151"
+      },
+      "_nodeVersion" : "8.1.3"
+    },
+    "3.0.3" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.0.3.tgz",
+        "shasum" : "efa27f517e54d58f1b76c00e9fa953bfcd9927e0"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.0.3",
+      "gitHead" : "f94a195dc1048a249858a234b691073543172d3b",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-3.0.3.tgz_1492661148344_0.5742925021331757"
+      },
+      "_shasum" : "efa27f517e54d58f1b76c00e9fa953bfcd9927e0",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.2.1" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.2.1.tgz",
+        "shasum" : "7e04b85b19b8199e16bbb7cdcbdaa7026f126366"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.2.1",
+      "gitHead" : "eaf21ae15646177d7104e20d2b7902acb6e6fed2",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.2.1.tgz_1499063853824_0.5548088462091982"
+      },
+      "_nodeVersion" : "8.1.3"
+    },
+    "3.2.2" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.2.2.tgz",
+        "shasum" : "32c4241f236c425f56b270c6264d789360239b1e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.2.2",
+      "gitHead" : "67f2366a6751585958e2a5ca58278edf5a7f21e6",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.2.2.tgz_1499334615029_0.8884955509565771"
+      },
+      "_nodeVersion" : "8.1.3"
+    },
+    "3.4.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.4.0.tgz",
+        "shasum" : "b4647d72f1b51436c844adc73fe0399d6c9270c5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.4.0",
+      "gitHead" : "d625e4314ae7db6138cbbc5f37b7dfbeb8176986",
+      "browser" : {
+        "./src/node/index.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.4.0.tgz_1506283527253_0.29413283080793917"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "2.0.0" : {
+      "name" : "snekfetch",
+      "description" : "It's like superagent but without all the shitcode and shitdeps.",
+      "version" : "2.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-2.0.0.tgz",
+        "shasum" : "247e69988df0588bf7418934da269a35789989d1"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@2.0.0",
+      "gitHead" : "619fa65a3f89013c1d5e2cc3df0af23d58e19fc6",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-2.0.0.tgz_1491292186785_0.20572620211169124"
+      },
+      "_shasum" : "247e69988df0588bf7418934da269a35789989d1",
+      "_nodeVersion" : "7.7.4"
+    },
+    "3.5.8" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.5.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.5.8.tgz",
+        "shasum" : "4d4e539f8435352105e74c392f62f66740a27d6c"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack",
+        "prepublish" : "npm run build:browser"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.5.8",
+      "gitHead" : "437b9d7e2811e8ad4110fc70aef13bff2ccc9f50",
+      "module" : "esm.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.5.8.tgz_1509162386511_0.6893350400496274"
+      },
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "9.0.0-rc.0"
+    },
+    "3.5.9" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.5.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.5.9.tgz",
+        "shasum" : "f669b8e1debf10f261a5736d5047557bdf0d57cc"
+      },
+      "dependencies" : {
+        "@snek/syncify" : "0.0.3"
+      },
+      "optionalDependencies" : {
+        "@snek/syncify" : "0.0.3"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack",
+        "prepublish" : "npm run build:browser"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.5.9",
+      "gitHead" : "c0f1ee8e5948df065815f87248a956feb1a47c34",
+      "module" : "esm.mjs",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.5.9.tgz_1512152989297_0.34730369318276644"
+      },
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "3.5.3-rc.1" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.5.3-rc.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.5.3-rc.1.tgz",
+        "shasum" : "6d6708f6f5714e43f2de6ef2882a6b0aa8ba94ed"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.5.3-rc.1",
+      "gitHead" : "9cbbb5742ece337d0b2f3d068736cffe607e3bd4",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.5.3-rc.1.tgz_1508470761675_0.3187500999774784"
+      },
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "8.7.0"
+    },
+    "3.1.8" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.1.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.1.8.tgz",
+        "shasum" : "a871a6208f9ec6ec72e2c61416f40880ee1aea92"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.1.8",
+      "gitHead" : "c5e03b1b0cf1c4434e82c3205f70ca24c26b5144",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.1.8.tgz_1495884974189_0.5351158070843667"
+      },
+      "_nodeVersion" : "7.10.0"
+    },
+    "3.5.4" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.5.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.5.4.tgz",
+        "shasum" : "e625350e4bdf5820e6de61f29ba864a3122d5447"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.5.4",
+      "gitHead" : "a22772d05ce687119d6028ddb7a6f6d3ae16153e",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.5.4.tgz_1508731542685_0.008204709505662322"
+      },
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "8.7.0"
+    },
+    "3.1.9" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.1.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.1.9.tgz",
+        "shasum" : "98a9f83c8a8d8cb427ff340a7ae0034f538f9482"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.1.9",
+      "gitHead" : "f60812fe9de9cfa6e0329943e64e5166f926e19e",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.1.9.tgz_1497462294300_0.9309378212783486"
+      },
+      "_nodeVersion" : "8.1.1"
+    },
+    "3.5.5" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.5.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.5.5.tgz",
+        "shasum" : "c9efdaee55b0359e491b7e42cb05affc487c0c9c"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.5.5",
+      "gitHead" : "a22772d05ce687119d6028ddb7a6f6d3ae16153e",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.5.5.tgz_1508731877793_0.10370843671262264"
+      },
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "8.7.0"
+    },
+    "3.5.6" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.5.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.5.6.tgz",
+        "shasum" : "eef5360561086d02891e985686f6fd441bae378b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.5.6",
+      "gitHead" : "06685fd019eaabd83a8cfad15feb30caade9badc",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.5.6.tgz_1508902544018_0.57668660976924"
+      },
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "3.5.7" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.5.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.5.7.tgz",
+        "shasum" : "382328da1703ee19909cb67cacacb82f4f9aabf5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.0",
+        "docma" : "^1.5.1",
+        "eslint" : "^4.8.0",
+        "jest" : "^21.2.1",
+        "jsdoc-dynamic" : "^1.0.4",
+        "json-filter-loader" : "^1.0.0",
+        "node-fetch" : "github:bitinn/node-fetch",
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.8.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npx eslint src",
+        "test" : "node ./node_modules/.bin/jest",
+        "test:coveralls" : "cat ./coverage/lcov.info | coveralls",
+        "docs" : "node docs.js",
+        "build:browser" : "webpack"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.5.7",
+      "gitHead" : "1b42f5c644240e4028fe6dd7cba52b04cf6c058f",
+      "unpkg" : "browser.js",
+      "browser" : {
+        "./src/node/index.js" : false,
+        "./src/meta.js" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.5.7.tgz_1508903122868_0.9346379071939737"
+      },
+      "jest" : {
+        "collectCoverage" : true,
+        "collectCoverageFrom" : [ "src/**/*.js", "!src/qs_mock.js", "!src/node/mimeOfBuffer.js", "!src/node/transports/http2.js" ],
+        "verbose" : true
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.2.4" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "2.2.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-2.2.4.tgz",
+        "shasum" : "348ddcead9a0e2458c099a645dee73c417996259"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@2.2.4",
+      "gitHead" : "a5cadc007a11ec872aab3aa7d3b924c405a618f6",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-2.2.4.tgz_1492309281742_0.6292400218080729"
+      },
+      "_shasum" : "348ddcead9a0e2458c099a645dee73c417996259",
+      "_nodeVersion" : "7.9.0"
+    },
+    "2.2.5" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "2.2.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-2.2.5.tgz",
+        "shasum" : "30bc4b1b4a77d63c18a0ca4d0d675a2128014d44"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@2.2.5",
+      "gitHead" : "8e62fd74c2f96ad4db250deef9a7bc3331c6a71b",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-2.2.5.tgz_1492309807472_0.5699107744731009"
+      },
+      "_shasum" : "30bc4b1b4a77d63c18a0ca4d0d675a2128014d44",
+      "_nodeVersion" : "7.9.0"
+    },
+    "2.2.2" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "2.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-2.2.2.tgz",
+        "shasum" : "03ecb9eda5288f10f4e22240066dce58f3783cfd"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.4",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@2.2.2",
+      "gitHead" : "b5cc88409e3ffddaf12522177355ff57b7d3a418",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-2.2.2.tgz_1491965302609_0.04898924566805363"
+      },
+      "_shasum" : "03ecb9eda5288f10f4e22240066dce58f3783cfd",
+      "_nodeVersion" : "7.7.4"
+    },
+    "2.2.3" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "2.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-2.2.3.tgz",
+        "shasum" : "6f77522ca2daa42782d9e4fec8cfc997bb45ed65"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@2.2.3",
+      "gitHead" : "826efcefe1896eb4fabdcfae5012d5d94e03c637",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-2.2.3.tgz_1492279689779_0.06958464719355106"
+      },
+      "_shasum" : "6f77522ca2daa42782d9e4fec8cfc997bb45ed65",
+      "_nodeVersion" : "7.9.0"
+    },
+    "2.2.0" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "2.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-2.2.0.tgz",
+        "shasum" : "f8a110abbb71ef51b93bbc35462988fc5ed7b128"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.4",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@2.2.0",
+      "gitHead" : "f2f5ad729c5d1bc655e845d4804677236b524ba4",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-2.2.0.tgz_1491730119288_0.9762700067367405"
+      },
+      "_shasum" : "f8a110abbb71ef51b93bbc35462988fc5ed7b128",
+      "_nodeVersion" : "7.7.4"
+    },
+    "3.2.0-rc" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.2.0-rc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.2.0-rc.tgz",
+        "shasum" : "68fa891797993e9b48820f0cf450d67e1980f8ab"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "uglifyjs-webpack-plugin" : "^1.0.0-beta.2",
+        "webpack" : "^3.6.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.2.0-rc",
+      "gitHead" : "ca8fd71bae0934b3e50637f7cdc4ddaf35522f37",
+      "browser" : {
+        "./src/node/index.js" : false
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.2.0-rc.tgz_1506199830489_0.0672952423337847"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "2.2.1" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "2.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-2.2.1.tgz",
+        "shasum" : "bb749b8c7b6e2921153171a352267a6eb7827116"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.4",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@2.2.1",
+      "gitHead" : "b1bf9609dbea6caf9d020dcbf8d2b0f6d8bbb7ff",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-2.2.1.tgz_1491843979256_0.22815101803280413"
+      },
+      "_shasum" : "bb749b8c7b6e2921153171a352267a6eb7827116",
+      "_nodeVersion" : "7.7.4"
+    },
+    "3.1.10" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.1.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.1.10.tgz",
+        "shasum" : "1a15b1cc07a379354b6a5918fff0df007843de85"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.1.10",
+      "gitHead" : "df8d6468f608f5cdb5aac1b84a83ced3c1f5eeae",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.1.10.tgz_1497474695614_0.6489089739043266"
+      },
+      "_nodeVersion" : "8.1.1"
+    },
+    "1.0.0" : {
+      "name" : "snekfetch",
+      "description" : "It's like superagent but without all the shitcode and shitdeps.",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/node-fetcher.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-1.0.0.tgz",
+        "shasum" : "12cb4dcb17f2286849d43d8fc2fb81d826a61074"
+      },
+      "dependencies" : {
+        "node-fetch" : "^1.6.3"
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.1",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@1.0.0",
+      "gitHead" : "91dadb4567fa4556d3222eac2cd7e6abd1dc4819",
+      "browser" : {
+        "node-fetch" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-1.0.0.tgz_1490104079941_0.5166064803488553"
+      },
+      "_shasum" : "12cb4dcb17f2286849d43d8fc2fb81d826a61074",
+      "_nodeVersion" : "7.7.3"
+    },
+    "1.0.1" : {
+      "name" : "snekfetch",
+      "description" : "It's like superagent but without all the shitcode and shitdeps.",
+      "version" : "1.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GusCaplan/snekfetch.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-1.0.1.tgz",
+        "shasum" : "1f3eb3fff17d8f0000ad1a32ecc449774ba1c8cf"
+      },
+      "dependencies" : {
+        "node-fetch" : "^1.6.3"
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.1",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@1.0.1",
+      "gitHead" : "15bf0f4618d09efe68fb1c4eb1e3a0efe8e153a5",
+      "browser" : {
+        "node-fetch" : false
+      },
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/snekfetch-1.0.1.tgz_1490115064306_0.745276685571298"
+      },
+      "_shasum" : "1f3eb3fff17d8f0000ad1a32ecc449774ba1c8cf",
+      "_nodeVersion" : "7.7.3"
+    },
+    "3.1.11" : {
+      "name" : "snekfetch",
+      "description" : "Just do http requests without all that weird nastiness from other libs",
+      "version" : "3.1.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/devsnek/snekfetch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/snekfetch/-/snekfetch-3.1.11.tgz",
+        "shasum" : "552e4ad3a817bab343981a6d527e174df19b6d1d"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "snek",
+        "email" : "me@gus.host"
+      },
+      "_id" : "snekfetch@3.1.11",
+      "gitHead" : "adf8aa1b110336be981a2a6617b0469ac5705389",
+      "deprecated" : "use node-fetch instead",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/snekfetch-3.1.11.tgz_1497501028276_0.8623030846938491"
+      },
+      "_nodeVersion" : "8.1.1"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "[![npm][download-badge]][npm]\n[![David][dep-badge]][dep-link]\n[![Coverage Status][coverage-badge]][coverage-link]\n[![Build Status][build-badge]][build-link]\n\n[![NPM][large-badge]][stats-link]\n\n# snekfetch <sup>[![Version Badge][version-badge]][npm]</sup>\n\nSnekfetch is a fast, efficient, and user-friendly library for making HTTP requests.\n\nIt also supports native ALPN negotiation in node for efficient http/2 requests!\n\nThe API was inspired by superagent, however it is much smaller and faster.\nIn fact, in browser, it is a mere 4.0kb.\n\nDocumentation is available at https://snekfetch.js.org/\n\n## Some examples\n\n```javascript\nconst request = require('snekfetch');\n\nrequest.post('https://httpbin.org/post')\n  .send({ usingGoodRequestLibrary: true })\n  .then(r => console.log(r.body)); // r.body is object from json response\n\nrequest.get('https://s.gc.gy/o-SNAKES.jpg')\n  .then(r => fs.writeFile('download.jpg', r.body)); // r.body is buffer\n\nrequest.get('https://s.gc.gy/o-SNAKES.jpg')\n  .pipe(fs.createWriteStream('download.jpg')); // pipes\n```\n\nAvailable for browser as UMD from [unpkg][unpkg-link]\n```html\n<script src=\"https://unpkg.com/snekfetch\"></script>\n```\n\n[npm]: https://npmjs.org/package/snekfetch\n[large-badge]: https://nodei.co/npm/snekfetch.png?downloads=true&downloadRank=true&stars=true\n[stats-link]: https://nodei.co/npm/snekfetch/\n[version-badge]: https://versionbadge.now.sh/npm/snekfetch.svg\n[download-badge]: https://img.shields.io/npm/dt/snekfetch.svg?maxAge=3600\n[build-badge]: https://api.travis-ci.com/devsnek/snekfetch.svg?branch=master\n[build-link]: https://travis-ci.com/devsnek/snekfetch\n[dep-badge]: https://david-dm.org/devsnek/snekfetch.svg\n[dep-link]: https://david-dm.org/devsnek/snekfetch\n[coverage-badge]: https://coveralls.io/repos/github/devsnek/snekfetch/badge.svg?branch=master\n[coverage-link]: https://coveralls.io/github/devsnek/snekfetch?branch=master\n[unpkg-link]: https://unpkg.com/\n",
+  "time" : {
+    "3.4.0-rc" : "2017-09-23T20:58:17.802Z",
+    "4.0.0-beta.0" : "2018-03-01T02:31:38.391Z",
+    "3.1.4" : "2017-04-26T06:50:32.005Z",
+    "3.5.0" : "2017-10-10T19:39:34.428Z",
+    "4.0.0-beta.1" : "2018-03-15T01:23:36.522Z",
+    "modified" : "2018-07-20T03:17:07.594Z",
+    "3.1.5" : "2017-04-26T07:14:15.006Z",
+    "3.5.1" : "2017-10-11T01:29:03.480Z",
+    "3.1.6" : "2017-04-30T16:22:35.672Z",
+    "3.5.2" : "2017-10-14T20:17:09.098Z",
+    "3.1.7" : "2017-05-15T02:26:05.608Z",
+    "3.5.3" : "2017-10-20T03:52:09.792Z",
+    "3.1.0" : "2017-04-20T19:39:20.353Z",
+    "3.1.1" : "2017-04-22T12:52:08.350Z",
+    "3.1.2" : "2017-04-22T17:42:47.939Z",
+    "3.3.0" : "2017-09-03T05:31:20.863Z",
+    "3.1.3" : "2017-04-22T18:25:28.084Z",
+    "3.3.1" : "2017-09-21T20:39:40.755Z",
+    "2.1.0" : "2017-04-07T05:01:23.916Z",
+    "3.2.7" : "2017-08-09T13:48:46.987Z",
+    "3.4.5" : "2017-10-06T04:30:36.302Z",
+    "3.6.3" : "2018-01-28T20:56:29.282Z",
+    "3.2.8" : "2017-08-09T13:51:07.785Z",
+    "3.6.4" : "2018-02-03T05:15:42.388Z",
+    "created" : "2017-03-21T13:48:01.886Z",
+    "3.2.9" : "2017-08-10T20:38:50.129Z",
+    "2.3.1" : "2017-04-17T00:48:46.246Z",
+    "2.3.2" : "2017-04-17T05:46:50.725Z",
+    "2.3.0" : "2017-04-16T20:28:44.258Z",
+    "1.1.0" : "2017-04-03T06:39:44.839Z",
+    "1.1.1" : "2017-04-03T16:52:12.731Z",
+    "4.0.2" : "2018-06-06T23:27:46.729Z",
+    "4.0.3" : "2018-06-18T03:08:50.902Z",
+    "4.0.0" : "2018-04-24T20:11:24.800Z",
+    "4.0.1" : "2018-06-05T03:19:17.074Z",
+    "4.0.0-rc.0" : "2018-02-23T20:57:04.681Z",
+    "4.0.4" : "2018-06-18T18:46:31.152Z",
+    "3.0.0" : "2017-04-18T20:24:38.347Z",
+    "3.2.3" : "2017-07-07T04:09:57.918Z",
+    "3.4.1" : "2017-09-26T15:07:14.298Z",
+    "3.2.4" : "2017-07-10T07:13:12.997Z",
+    "3.4.2" : "2017-10-01T00:27:20.632Z",
+    "3.6.0" : "2017-12-01T21:14:19.258Z",
+    "3.4.3" : "2017-10-02T21:21:12.652Z",
+    "3.6.1" : "2017-12-06T00:58:57.080Z",
+    "3.2.6" : "2017-08-08T04:06:31.850Z",
+    "3.4.4" : "2017-10-03T03:01:11.068Z",
+    "3.6.2" : "2018-01-27T18:55:22.202Z",
+    "3.0.1" : "2017-04-19T05:15:59.295Z",
+    "3.0.2" : "2017-04-19T19:58:33.559Z",
+    "3.2.0" : "2017-07-03T06:04:05.481Z",
+    "3.0.3" : "2017-04-20T04:05:49.395Z",
+    "3.2.1" : "2017-07-03T06:37:34.868Z",
+    "3.2.2" : "2017-07-06T09:50:16.024Z",
+    "3.4.0" : "2017-09-24T20:05:28.249Z",
+    "2.0.0" : "2017-04-04T07:49:48.610Z",
+    "3.5.8" : "2017-10-28T03:46:27.549Z",
+    "3.5.9" : "2017-12-01T18:29:49.371Z",
+    "3.5.3-rc.1" : "2017-10-20T03:39:22.745Z",
+    "3.1.8" : "2017-05-27T11:36:15.212Z",
+    "3.5.4" : "2017-10-23T04:05:43.592Z",
+    "3.1.9" : "2017-06-14T17:44:55.266Z",
+    "3.5.5" : "2017-10-23T04:11:18.999Z",
+    "3.5.6" : "2017-10-25T03:35:45.002Z",
+    "3.5.7" : "2017-10-25T03:45:23.947Z",
+    "2.2.4" : "2017-04-16T02:21:22.316Z",
+    "2.2.5" : "2017-04-16T02:30:09.606Z",
+    "2.2.2" : "2017-04-12T02:48:24.698Z",
+    "2.2.3" : "2017-04-15T18:08:11.666Z",
+    "2.2.0" : "2017-04-09T09:28:40.074Z",
+    "3.2.0-rc" : "2017-09-23T20:50:31.557Z",
+    "2.2.1" : "2017-04-10T17:06:19.966Z",
+    "3.1.10" : "2017-06-14T21:11:36.599Z",
+    "1.0.0" : "2017-03-21T13:48:01.886Z",
+    "1.0.1" : "2017-03-21T16:51:06.312Z",
+    "3.1.11" : "2017-06-15T04:30:29.548Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/devsnek/snekfetch.git",
+    "homepage" : "https://github.com/devsnek/snekfetch"
+  },
+  "users" : {
+    "lloti" : true,
+    "0x9r3ydu5" : true,
+    "pagoru" : true,
+    "lusiddev" : true,
+    "snazzah" : true,
+    "playthefallen" : true,
+    "danielgray.me" : true,
+    "rocket0191" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

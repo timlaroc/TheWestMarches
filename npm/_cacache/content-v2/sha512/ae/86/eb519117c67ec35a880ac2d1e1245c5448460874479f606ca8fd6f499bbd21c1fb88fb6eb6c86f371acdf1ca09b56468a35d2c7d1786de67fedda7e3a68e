@@ -1,0 +1,726 @@
+{
+  "_id" : "prism-media",
+  "_rev" : "16-ae3eedd0b9b7370217b6aab87b619d58",
+  "name" : "prism-media",
+  "description" : "Easy-to-use stream-based media transcoding",
+  "dist-tags" : {
+    "latest" : "1.1.0"
+  },
+  "versions" : {
+    "0.4.2" : {
+      "name" : "prism-media",
+      "description" : "Easy-to-use stream-based media transcoding",
+      "version" : "0.4.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-0.4.2.tgz",
+        "shasum" : "6ad976f6a4688cc18ab1227e32eef43344f4c043"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.16.0",
+        "jest" : "^22.1.4"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "npm run lint && jest"
+      },
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@0.4.2",
+      "types" : "typings/index.d.ts",
+      "licenseText" : "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"{}\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright {yyyy} {name of copyright owner}\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media_0.4.2_1550439955691_0.6260316404431738"
+      },
+      "jest" : {
+        "testURL" : "http://localhost/"
+      }
+    },
+    "0.3.1" : {
+      "name" : "prism-media",
+      "description" : "Easy-to-use stream-based media transcoding",
+      "version" : "0.3.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-0.3.1.tgz",
+        "shasum" : "5331522d1194b544c65db4a66ea3854e6916a258"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.16.0",
+        "jest" : "^22.1.4"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "npm run lint && jest"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@0.3.1",
+      "gitHead" : "7f54444be3adcc6ac764613e2a993b07ff6347f0",
+      "types" : "typings/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media_0.3.1_1529690940785_0.5831096467096559"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "0.4.0" : {
+      "name" : "prism-media",
+      "description" : "Easy-to-use stream-based media transcoding",
+      "version" : "0.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-0.4.0.tgz",
+        "shasum" : "231f65764191bd9d49a8c27029844bb3f20d72dc"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.16.0",
+        "jest" : "^22.1.4"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "npm run lint && jest"
+      },
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@0.4.0",
+      "types" : "typings/index.d.ts",
+      "licenseText" : "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"{}\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright {yyyy} {name of copyright owner}\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media_0.4.0_1550435767089_0.2313182714291"
+      },
+      "jest" : {
+        "testURL" : "http://localhost/"
+      }
+    },
+    "0.4.1" : {
+      "name" : "prism-media",
+      "description" : "Easy-to-use stream-based media transcoding",
+      "version" : "0.4.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-0.4.1.tgz",
+        "shasum" : "374011bb419f181421e2b362e3b43a1946362b8d"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.16.0",
+        "jest" : "^22.1.4"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "npm run lint && jest"
+      },
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@0.4.1",
+      "types" : "typings/index.d.ts",
+      "licenseText" : "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"{}\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright {yyyy} {name of copyright owner}\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media_0.4.1_1550435923096_0.7008641968790974"
+      },
+      "jest" : {
+        "testURL" : "http://localhost/"
+      }
+    },
+    "0.0.2" : {
+      "name" : "prism-media",
+      "description" : "Makes transcoding media easier",
+      "version" : "0.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-0.0.2.tgz",
+        "shasum" : "aa917b084576c4df6488e4ea8e7d6d44aed4b411"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.12.2"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src && eslint test",
+        "test" : "npm run lint"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@0.0.2",
+      "gitHead" : "3b8089ef336558ef85b6608491ca709cdf21e5c9",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media-0.0.2.tgz_1508683451759_0.3343057236634195"
+      },
+      "_nodeVersion" : "8.6.0"
+    },
+    "0.2.0" : {
+      "name" : "prism-media",
+      "description" : "Easy-to-use stream-based media transcoding",
+      "version" : "0.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-0.2.0.tgz",
+        "shasum" : "82c183da430c41c3025df3610a92a61b107b1918"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.16.0",
+        "ffmpeg-binaries" : "^3.2.2-3",
+        "jest" : "^22.1.4"
+      },
+      "peerDependencies" : {
+        "opusscript" : "^0.0.4",
+        "node-opus" : "^0.2.7"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "npm run lint && jest"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@0.2.0",
+      "gitHead" : "b367fca09ecea193b17f3611cb41a05154c9d682",
+      "types" : "typings/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media_0.2.0_1520278132466_0.43113836886415857"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "0.2.1" : {
+      "name" : "prism-media",
+      "description" : "Easy-to-use stream-based media transcoding",
+      "version" : "0.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-0.2.1.tgz",
+        "shasum" : "7968f2c7194588887c4c48081968d8c28e0d2469"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.16.0",
+        "ffmpeg-binaries" : "^3.2.2-3",
+        "jest" : "^22.1.4"
+      },
+      "peerDependencies" : {
+        "opusscript" : "^0.0.4",
+        "node-opus" : "^0.2.7"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "npm run lint && jest"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@0.2.1",
+      "gitHead" : "f675af4f2e5b9587f2980a727613cbf68667cf74",
+      "types" : "typings/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media_0.2.1_1522418912289_0.8427226378557859"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "0.3.0" : {
+      "name" : "prism-media",
+      "description" : "Easy-to-use stream-based media transcoding",
+      "version" : "0.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-0.3.0.tgz",
+        "shasum" : "c6d9b4c884db7623724b51f2ef29ce1b54738fbc"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.16.0",
+        "jest" : "^22.1.4"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "npm run lint && jest"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@0.3.0",
+      "gitHead" : "f4877bf8172609f34f204431a5317050a2d37eea",
+      "types" : "typings/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media_0.3.0_1529523692813_0.7205651317250743"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "0.0.3" : {
+      "name" : "prism-media",
+      "description" : "Makes transcoding media easier",
+      "version" : "0.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-0.0.3.tgz",
+        "shasum" : "8842d4fae804f099d3b48a9a38e3c2bab6f4855b"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.12.2"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src && eslint test",
+        "test" : "npm run lint"
+      },
+      "_npmVersion" : "6.2.0",
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@0.0.3",
+      "gitHead" : "a49a75ee5e14a94f27612f17883c9b2afba51761",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media_0.0.3_1533670183381_0.41893489705029485"
+      },
+      "_nodeVersion" : "10.8.0"
+    },
+    "0.0.1" : {
+      "name" : "prism-media",
+      "description" : "Makes transcoding media easier",
+      "version" : "0.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-0.0.1.tgz",
+        "shasum" : "a3425c9cabd50d1c6c02e543941a11895667bd10"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.12.2"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src && eslint test",
+        "test" : "npm run lint"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.6",
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@0.0.1",
+      "gitHead" : "c9125f673743d26335fb358887879d3215087351",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/prism-media-0.0.1.tgz_1492281170625_0.09007600648328662"
+      },
+      "_shasum" : "a3425c9cabd50d1c6c02e543941a11895667bd10",
+      "_nodeVersion" : "7.9.0"
+    },
+    "0.1.0" : {
+      "name" : "prism-media",
+      "description" : "Easy-to-use stream-based media transcoding",
+      "version" : "0.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-0.1.0.tgz",
+        "shasum" : "efe47ee7660912be98ea4db817c28764111ea8eb"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.16.0",
+        "ffmpeg-binaries" : "^3.2.2-3",
+        "jest" : "^21.2.1"
+      },
+      "peerDependencies" : {
+        "opusscript" : "^0.0.4",
+        "node-opus" : "^0.2.7"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "npm run lint && jest"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@0.1.0",
+      "gitHead" : "21b5f63bb865ca348a955fc0c903f01c389a6e1c",
+      "types" : "typings/index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media-0.1.0.tgz_1516556540610_0.6894513389561325"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.0.0" : {
+      "name" : "prism-media",
+      "description" : "Easy-to-use stream-based media transcoding",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-1.0.0.tgz",
+        "shasum" : "a289eeb9fa37ca523dc41667ec39c3bebab3d34c"
+      },
+      "devDependencies" : {
+        "docma" : "^3.2.2",
+        "eslint" : "^4.16.0",
+        "jest" : "^22.1.4"
+      },
+      "peerDependencies" : {
+        "ffmpeg-binaries" : "^4.0.0",
+        "ffmpeg-static" : "^2.4.0",
+        "node-opus" : "^0.3.1",
+        "opusscript" : "^0.0.6"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "yarn lint && jest",
+        "docs" : "docma"
+      },
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@1.0.0",
+      "types" : "typings/index.d.ts",
+      "peerDependenciesMeta" : {
+        "node-opus" : {
+          "optional" : true
+        },
+        "opusscript" : {
+          "optional" : true
+        },
+        "ffmpeg-static" : {
+          "optional" : true
+        },
+        "ffmpeg-binaries" : {
+          "optional" : true
+        }
+      },
+      "licenseText" : "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"{}\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright 2019 Amish Shah\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media_1.0.0_1550749804165_0.6877026258573802"
+      },
+      "jest" : {
+        "testURL" : "http://localhost/"
+      }
+    },
+    "1.0.1" : {
+      "name" : "prism-media",
+      "description" : "Easy-to-use stream-based media transcoding",
+      "version" : "1.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-1.0.1.tgz",
+        "shasum" : "3d033c214f9d79ca157bae7985938be65f521c02"
+      },
+      "devDependencies" : {
+        "docma" : "^3.2.2",
+        "eslint" : "^4.16.0",
+        "jest" : "^22.1.4"
+      },
+      "peerDependencies" : {
+        "ffmpeg-binaries" : "^4.0.0",
+        "ffmpeg-static" : "^2.4.0",
+        "node-opus" : "^0.3.1",
+        "opusscript" : "^0.0.6"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "yarn lint && jest",
+        "docs" : "docma"
+      },
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@1.0.1",
+      "types" : "typings/index.d.ts",
+      "peerDependenciesMeta" : {
+        "node-opus" : {
+          "optional" : true
+        },
+        "opusscript" : {
+          "optional" : true
+        },
+        "ffmpeg-static" : {
+          "optional" : true
+        },
+        "ffmpeg-binaries" : {
+          "optional" : true
+        }
+      },
+      "licenseText" : "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"{}\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright 2019 Amish Shah\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media_1.0.1_1550847544057_0.6273653435191484"
+      },
+      "jest" : {
+        "testURL" : "http://localhost/"
+      }
+    },
+    "1.1.0" : {
+      "name" : "prism-media",
+      "description" : "Easy-to-use stream-based media transcoding",
+      "version" : "1.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-1.1.0.tgz",
+        "shasum" : "64fd9abf64719d627b99360bfbe1a81d3ac0c593"
+      },
+      "devDependencies" : {
+        "docma" : "^3.2.2",
+        "eslint" : "^4.16.0",
+        "jest" : "^22.1.4"
+      },
+      "peerDependencies" : {
+        "ffmpeg-static" : "^2.4.0",
+        "node-opus" : "^0.3.1",
+        "opusscript" : "^0.0.6"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "yarn lint && jest && yarn docs",
+        "docs" : "docma"
+      },
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@1.1.0",
+      "gitHead" : "0c32f731121c037b6b6b84125483f794a597a4f1",
+      "types" : "typings/index.d.ts",
+      "peerDependenciesMeta" : {
+        "node-opus" : {
+          "optional" : true
+        },
+        "opusscript" : {
+          "optional" : true
+        },
+        "ffmpeg-static" : {
+          "optional" : true
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media_1.1.0_1566473902338_0.5794015104088024"
+      },
+      "jest" : {
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "11.10.0"
+    },
+    "1.0.2" : {
+      "name" : "prism-media",
+      "description" : "Easy-to-use stream-based media transcoding",
+      "version" : "1.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/hydrabolt/prism-media.git"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/prism-media/-/prism-media-1.0.2.tgz",
+        "shasum" : "1e0f097f67d799211177a50d5276fdd2ef1c7fd7"
+      },
+      "devDependencies" : {
+        "docma" : "^3.2.2",
+        "eslint" : "^4.16.0",
+        "jest" : "^22.1.4"
+      },
+      "peerDependencies" : {
+        "ffmpeg-binaries" : "^4.0.0",
+        "ffmpeg-static" : "^2.4.0",
+        "node-opus" : "^0.3.1",
+        "opusscript" : "^0.0.6"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "yarn lint && jest",
+        "docs" : "docma"
+      },
+      "_npmUser" : {
+        "name" : "hydrabolt",
+        "email" : "amishshah.2k@gmail.com"
+      },
+      "_id" : "prism-media@1.0.2",
+      "types" : "typings/index.d.ts",
+      "peerDependenciesMeta" : {
+        "node-opus" : {
+          "optional" : true
+        },
+        "opusscript" : {
+          "optional" : true
+        },
+        "ffmpeg-static" : {
+          "optional" : true
+        },
+        "ffmpeg-binaries" : {
+          "optional" : true
+        }
+      },
+      "licenseText" : "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"{}\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright 2019 Amish Shah\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/prism-media_1.0.2_1556469246662_0.9145613986077197"
+      },
+      "jest" : {
+        "testURL" : "http://localhost/"
+      }
+    }
+  },
+  "readme" : "[![Logo](https://hydrabolt.me/assets/prism-media-logo.svg)](https://hydrabolt.me/prism-media/)\r\n\r\n<div align=\"center\">\r\n\r\n[![Build Status](https://travis-ci.org/amishshah/prism-media.svg?branch=master)](https://travis-ci.org/hydrabolt/prism-media)\r\n[![dependencies](https://david-dm.org/amishshah/prism-media/status.svg)](https://david-dm.org/hydrabolt/prism-media)\r\n[![npm](https://img.shields.io/npm/dt/prism-media.svg)](https://www.npmjs.com/package/prism-media)\r\n[![Patreon](https://img.shields.io/badge/donate-patreon-F96854.svg)](https://www.patreon.com/discordjs)\r\n\r\n</div>\r\n\r\n## What is it?\r\n\r\nAn easy-to-use stream-based toolkit that you can use for media processing. All the features provided have predictable\r\nabstractions and join together coherently.\r\n\r\n```js\r\n// This example will demux and decode an Opus-containing OGG file, and then write it to a file.\r\nconst prism = require('prism-media');\r\nconst fs = require('fs');\r\n\r\nfs.createReadStream('./audio.ogg')\r\n  .pipe(new prism.opus.OggDemuxer())\r\n  .pipe(new prism.opus.Decoder({ rate: 48000, channels: 2, frameSize: 960 }))\r\n  .pipe(fs.createWriteStream('./audio.pcm'));\r\n```\r\n\r\nThe example above can work with either a native or pure JavaScript Opus decoder - you don't need to worry about changing\r\nyour code for whichever you install.\r\n\r\n- FFmpeg support (either through npm modules or a normal installation) \r\n- Opus support (native or pure JavaScript)\r\n- Demuxing for WebM/OGG files (no modules required!)\r\n- Volume Altering (no modules required!)\r\n\r\n## Dependencies\r\n\r\nThe following dependencies are all optional, and you should only install one from each category (the first listed in\r\neach category is preferred)\r\n\r\n- Opus\r\n  - [`node-opus`](https://github.com/Rantanen/node-opus) (native, ^0.3.1)\r\n  - [`opusscript`](https://github.com/abalabahaha/opusscript) (^0.0.6)\r\n- FFmpeg\r\n  - [`ffmpeg-static`](http://npmjs.com/ffmpeg-static) (^2.4.0)\r\n  - `ffmpeg` from a [normal installation](https://www.ffmpeg.org/download.html)\r\n\r\n## Useful Links\r\n\r\n- [Documentation](https://hydrabolt.me/prism-media)\r\n- [Examples](https://github.com/amishshah/prism-media/tree/master/examples)\r\n- [Patreon](https://www.patreon.com/discordjs)\r\n\r\n## License\r\n\r\n> Copyright 2019 Amish Shah\r\n> \r\n> Licensed under the Apache License, Version 2.0 (the \"License\");\r\n> you may not use this file except in compliance with the License.\r\n> You may obtain a copy of the License at\r\n> \r\n>    http://www.apache.org/licenses/LICENSE-2.0\r\n> \r\n> Unless required by applicable law or agreed to in writing, software\r\n> distributed under the License is distributed on an \"AS IS\" BASIS,\r\n> WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n> See the License for the specific language governing permissions and\r\n> limitations under the License.",
+  "time" : {
+    "0.4.2" : "2019-02-17T21:45:55.807Z",
+    "0.3.1" : "2018-06-22T18:09:00.914Z",
+    "0.4.0" : "2019-02-17T20:36:07.236Z",
+    "0.4.1" : "2019-02-17T20:38:43.304Z",
+    "created" : "2017-04-15T18:32:51.307Z",
+    "0.0.2" : "2017-10-22T14:44:12.728Z",
+    "0.2.0" : "2018-03-05T19:28:52.683Z",
+    "0.2.1" : "2018-03-30T14:08:33.189Z",
+    "0.3.0" : "2018-06-20T19:41:33.104Z",
+    "0.0.3" : "2018-08-07T19:29:43.456Z",
+    "0.0.1" : "2017-04-15T18:32:51.307Z",
+    "0.1.0" : "2018-01-21T17:42:21.553Z",
+    "modified" : "2019-08-22T11:38:25.514Z",
+    "1.0.0" : "2019-02-21T11:50:04.343Z",
+    "1.0.1" : "2019-02-22T14:59:04.171Z",
+    "1.1.0" : "2019-08-22T11:38:22.431Z",
+    "1.0.2" : "2019-04-28T16:34:06.789Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/hydrabolt/prism-media.git"
+  },
+  "users" : {
+    "hintss" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "Apache-2.0"
+}
