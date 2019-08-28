@@ -1,6 +1,6 @@
 // import Encounters from './encounters.js';
-// const Character = require('./Characters/character.js');
-const NewCharacterPrompts = require('./Messages/newCharacterPrompts');
+const Character = require('./src/Characters/character');
+const NewCharacterPrompts = require('./src/Messages/newCharacterPrompts');
 const Discord = require('discord.js');
 
 // bot setup
@@ -22,8 +22,9 @@ bot.on('message', (message) => {
     switch (args[0]) {
         // character creation commands
         case 'createCharacter':
-            // character = new Character(message.member.displayName);
+            const character = new Character(message.member.displayName);
             characterPrompts.sendGreeting(message);
+            character.displayCharacter();
             break;
         case 'rollStats':
         case 'chooseClass':
