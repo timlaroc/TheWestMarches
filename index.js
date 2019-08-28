@@ -1,6 +1,6 @@
 //import Encounters from './encounters.js';
 // const Character = require('./Characters/character.js');
-import NewCharacterPrompts from './Messages/newCharacterPrompts.js';
+const NewCharacterPrompts = require('./Messages/newCharacterPrompts');
 const Discord = require('discord.js');
 
 // bot setup
@@ -18,13 +18,13 @@ bot.on('guildCreate', () => {
 
 bot.on('message', message => {
     let args = message.content.substring(PREFIX.length).split(" ");
-    let prompts = NewCharacterPrompts();
+    const characterPrompts = new NewCharacterPrompts;
 
     switch (args[0]) {
         // character creation commands
         case 'createCharacter':
             // character = new Character(message.member.displayName);
-            prompts(sendGreeting);
+            characterPrompts.sendGreeting(message);
             break;
         case 'rollStats':
         case 'chooseClass':

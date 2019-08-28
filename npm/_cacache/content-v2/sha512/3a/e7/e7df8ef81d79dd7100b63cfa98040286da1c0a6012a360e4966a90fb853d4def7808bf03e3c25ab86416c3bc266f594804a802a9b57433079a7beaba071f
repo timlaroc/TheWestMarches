@@ -1,0 +1,482 @@
+{
+  "_id" : "fast-deep-equal",
+  "_rev" : "14-9c324fbee27e64869c714ad11201c1b6",
+  "name" : "fast-deep-equal",
+  "description" : "Fast deep equal",
+  "dist-tags" : {
+    "beta" : "3.0.0-beta.1",
+    "latest" : "2.0.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "fast-deep-equal",
+      "description" : "Fast deep equal",
+      "version" : "2.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/epoberezkin/fast-deep-equal.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/fast-deep-equal/-/fast-deep-equal-2.0.0.tgz",
+        "shasum" : "eaa6d36ab9bf2ffb5fe3aa55c7ed1223e9cbd8b0"
+      },
+      "devDependencies" : {
+        "benchmark" : "^2.1.4",
+        "coveralls" : "^2.13.1",
+        "deep-eql" : "latest",
+        "deep-equal" : "latest",
+        "eslint" : "^4.0.0",
+        "lodash" : "latest",
+        "mocha" : "^3.4.2",
+        "nano-equal" : "latest",
+        "nyc" : "^11.0.2",
+        "pre-commit" : "^1.2.2",
+        "ramda" : "latest",
+        "shallow-equal-fuzzy" : "latest",
+        "typescript" : "^2.6.1",
+        "underscore" : "latest"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js", "index.d.ts" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "eslint" : "eslint *.js benchmark spec",
+        "test-spec" : "mocha spec/*.spec.js -R spec",
+        "test-cov" : "nyc npm run test-spec",
+        "test-ts" : "tsc --target ES5 --noImplicitAny index.d.ts",
+        "test" : "npm run eslint && npm run test-ts && npm run test-cov"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "esp",
+        "email" : "e.poberezkin@me.com"
+      },
+      "_id" : "fast-deep-equal@2.0.0",
+      "gitHead" : "5a472bc5bde46f446d21138c5234cd101ce6d5e0",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "**/spec/**", "node_modules" ],
+        "reporter" : [ "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fast-deep-equal_2.0.0_1524906436392_0.9757226693566117"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "2.0.1" : {
+      "name" : "fast-deep-equal",
+      "description" : "Fast deep equal",
+      "version" : "2.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/epoberezkin/fast-deep-equal.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz",
+        "shasum" : "7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
+      },
+      "devDependencies" : {
+        "benchmark" : "^2.1.4",
+        "coveralls" : "^2.13.1",
+        "deep-eql" : "latest",
+        "deep-equal" : "latest",
+        "eslint" : "^4.0.0",
+        "lodash" : "latest",
+        "mocha" : "^3.4.2",
+        "nano-equal" : "latest",
+        "nyc" : "^11.0.2",
+        "pre-commit" : "^1.2.2",
+        "ramda" : "latest",
+        "shallow-equal-fuzzy" : "latest",
+        "typescript" : "^2.6.1",
+        "underscore" : "latest"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js", "index.d.ts" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "eslint" : "eslint *.js benchmark spec",
+        "test-spec" : "mocha spec/*.spec.js -R spec",
+        "test-cov" : "nyc npm run test-spec",
+        "test-ts" : "tsc --target ES5 --noImplicitAny index.d.ts",
+        "test" : "npm run eslint && npm run test-ts && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "esp",
+        "email" : "e.poberezkin@me.com"
+      },
+      "_id" : "fast-deep-equal@2.0.1",
+      "gitHead" : "8a9c22e36a18a0b6a006d180572016c91e9f23e1",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "**/spec/**", "node_modules" ],
+        "reporter" : [ "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fast-deep-equal_2.0.1_1524909830041_0.13261732364737422"
+      },
+      "_shasum" : "7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49",
+      "_nodeVersion" : "7.10.1"
+    },
+    "3.0.0-beta.0" : {
+      "name" : "fast-deep-equal",
+      "description" : "Fast deep equal",
+      "version" : "3.0.0-beta.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/epoberezkin/fast-deep-equal.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/fast-deep-equal/-/fast-deep-equal-3.0.0-beta.0.tgz",
+        "shasum" : "6168fba8e375247040d34c551414b50ac5aa4612"
+      },
+      "devDependencies" : {
+        "benchmark" : "^2.1.4",
+        "coveralls" : "^2.13.1",
+        "deep-eql" : "latest",
+        "deep-equal" : "latest",
+        "dot" : "^1.1.2",
+        "eslint" : "^4.0.0",
+        "lodash" : "latest",
+        "mocha" : "^3.4.2",
+        "nano-equal" : "latest",
+        "nyc" : "^11.0.2",
+        "pre-commit" : "^1.2.2",
+        "ramda" : "latest",
+        "shallow-equal-fuzzy" : "latest",
+        "typescript" : "^2.6.1",
+        "underscore" : "latest"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "eslint" : "eslint *.js benchmark spec",
+        "build" : "node build",
+        "test-spec" : "mocha spec/*.spec.js -R spec",
+        "test-cov" : "nyc npm run test-spec",
+        "test-ts" : "tsc --target ES5 --noImplicitAny index.d.ts",
+        "test" : "npm run build && npm run eslint && npm run test-ts && npm run test-cov",
+        "prepublish" : "npm run build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "esp",
+        "email" : "e.poberezkin@me.com"
+      },
+      "_id" : "fast-deep-equal@3.0.0-beta.0",
+      "gitHead" : "e61a878a94a819f3b407927a7b4b549d4596d701",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "**/spec/**", "node_modules" ],
+        "reporter" : [ "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fast-deep-equal_3.0.0-beta.0_1562506797886_0.3308294011939501"
+      },
+      "readme" : "# fast-deep-equal\nThe fastest deep equal\n\n[![Build Status](https://travis-ci.org/epoberezkin/fast-deep-equal.svg?branch=master)](https://travis-ci.org/epoberezkin/fast-deep-equal)\n[![npm version](https://badge.fury.io/js/fast-deep-equal.svg)](http://badge.fury.io/js/fast-deep-equal)\n[![Coverage Status](https://coveralls.io/repos/github/epoberezkin/fast-deep-equal/badge.svg?branch=master)](https://coveralls.io/github/epoberezkin/fast-deep-equal?branch=master)\n\n\nThis readme is for pre-release v3 with ES6 Map, Set and Typed arrays support.\n\nSee branch [v2](https://github.com/epoberezkin/fast-deep-equal/tree/v2) for the main version.\n\n\n## Install\n\n```bash\nnpm install fast-deep-equal\n```\n\n\n## Features\n\n- ES5 compatible\n- works in node.js (8+) and browsers (IE9+)\n- checks equality of Date and RegExp objects by value.\n\nES6 equal (`require('fast-deep-equal/es6')`) also supports:\n- Maps\n- Sets\n- Typed arrays\n\n\n## Usage\n\n```javascript\nvar equal = require('fast-deep-equal');\nconsole.log(equal({foo: 'bar'}, {foo: 'bar'})); // true\n```\n\nTo support ES6 Maps, Sets and Typed arrays equality use:\n\n```javascript\nvar equal = require('fast-deep-equal/es6');\nconsole.log(equal(Int16Array([1, 2]), Int16Array([1, 2]))); // true\n```\n\n\n## Performance benchmark\n\nNode.js v12.6.0:\n\n```\nfast-deep-equal x 325,485 ops/sec ±0.57% (86 runs sampled)\nfast-deep-equal/es6 x 261,338 ops/sec ±0.45% (89 runs sampled)\nnano-equal x 231,064 ops/sec ±0.62% (88 runs sampled)\nshallow-equal-fuzzy x 164,828 ops/sec ±0.87% (88 runs sampled)\nunderscore.isEqual x 91,247 ops/sec ±0.56% (88 runs sampled)\nlodash.isEqual x 48,000 ops/sec ±0.48% (86 runs sampled)\ndeep-equal x 73,699 ops/sec ±0.55% (86 runs sampled)\ndeep-eql x 42,804 ops/sec ±0.45% (87 runs sampled)\nramda.equals x 15,119 ops/sec ±0.49% (87 runs sampled)\nutil.isDeepStrictEqual x 58,458 ops/sec ±0.56% (89 runs sampled)\nassert.deepStrictEqual x 583 ops/sec ±0.47% (87 runs sampled)\n\nThe fastest is fast-deep-equal\n```\n\nTo run benchmark (requires node.js 6+):\n\n```bash\nnpm install\nnpm run build\nnode benchmark\n```\n\n\n## License\n\n[MIT](https://github.com/epoberezkin/fast-deep-equal/blob/master/LICENSE)\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.6.0"
+    },
+    "3.0.0-beta.1" : {
+      "name" : "fast-deep-equal",
+      "description" : "Fast deep equal",
+      "version" : "3.0.0-beta.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/epoberezkin/fast-deep-equal.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/fast-deep-equal/-/fast-deep-equal-3.0.0-beta.1.tgz",
+        "shasum" : "6d3ffe12cd9f26a6e64501248fc6e0a60d99e0ab"
+      },
+      "devDependencies" : {
+        "benchmark" : "^2.1.4",
+        "coveralls" : "^2.13.1",
+        "deep-eql" : "latest",
+        "deep-equal" : "latest",
+        "dot" : "^1.1.2",
+        "eslint" : "^4.0.0",
+        "lodash" : "latest",
+        "mocha" : "^3.4.2",
+        "nano-equal" : "latest",
+        "nyc" : "^11.0.2",
+        "pre-commit" : "^1.2.2",
+        "ramda" : "latest",
+        "shallow-equal-fuzzy" : "latest",
+        "typescript" : "^2.6.1",
+        "underscore" : "latest"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "eslint" : "eslint *.js benchmark spec",
+        "build" : "node build",
+        "test-spec" : "mocha spec/*.spec.js -R spec",
+        "test-cov" : "nyc npm run test-spec",
+        "test-ts" : "tsc --target ES5 --noImplicitAny index.d.ts",
+        "test" : "npm run build && npm run eslint && npm run test-ts && npm run test-cov",
+        "prepublish" : "npm run build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "esp",
+        "email" : "e.poberezkin@me.com"
+      },
+      "_id" : "fast-deep-equal@3.0.0-beta.1",
+      "gitHead" : "a7bf530713a16217625069091e7abb1a8beb58e5",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "**/spec/**", "node_modules" ],
+        "reporter" : [ "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fast-deep-equal_3.0.0-beta.1_1562517905353_0.1702218812796703"
+      },
+      "readme" : "# fast-deep-equal\nThe fastest deep equal\n\n[![Build Status](https://travis-ci.org/epoberezkin/fast-deep-equal.svg?branch=master)](https://travis-ci.org/epoberezkin/fast-deep-equal)\n[![npm](https://img.shields.io/npm/v/fast-deep-equal.svg)](https://www.npmjs.com/package/fast-deep-equal)\n[![npm](https://img.shields.io/npm/v/fast-deep-equal/beta.svg)](https://www.npmjs.com/package/fast-deep-equal)\n[![Coverage Status](https://coveralls.io/repos/github/epoberezkin/fast-deep-equal/badge.svg?branch=master)](https://coveralls.io/github/epoberezkin/fast-deep-equal?branch=master)\n\n\nThis readme is for pre-release v3 with ES6 Map, Set and Typed arrays support.\n\nSee branch [v2](https://github.com/epoberezkin/fast-deep-equal/tree/v2) for the main version.\n\n\n## Install\n\nTo install v3 pre-release with ES6 Map, Set and Typed arrays support\n\n```bash\nnpm install fast-deep-equal@beta\n```\n\nTo install [v2](https://github.com/epoberezkin/fast-deep-equal/tree/v2)\n\n```bash\nnpm install fast-deep-equal\n```\n\n\n## Features\n\n- ES5 compatible\n- works in node.js (8+) and browsers (IE9+)\n- checks equality of Date and RegExp objects by value.\n\nES6 equal (`require('fast-deep-equal/es6')`) also supports:\n- Maps\n- Sets\n- Typed arrays\n\n\n## Usage\n\n```javascript\nvar equal = require('fast-deep-equal');\nconsole.log(equal({foo: 'bar'}, {foo: 'bar'})); // true\n```\n\nTo support ES6 Maps, Sets and Typed arrays equality use:\n\n```javascript\nvar equal = require('fast-deep-equal/es6');\nconsole.log(equal(Int16Array([1, 2]), Int16Array([1, 2]))); // true\n```\n\n\n## Performance benchmark\n\nNode.js v12.6.0:\n\n```\nfast-deep-equal x 325,485 ops/sec ±0.57% (86 runs sampled)\nfast-deep-equal/es6 x 261,338 ops/sec ±0.45% (89 runs sampled)\nnano-equal x 231,064 ops/sec ±0.62% (88 runs sampled)\nshallow-equal-fuzzy x 164,828 ops/sec ±0.87% (88 runs sampled)\nunderscore.isEqual x 91,247 ops/sec ±0.56% (88 runs sampled)\nlodash.isEqual x 48,000 ops/sec ±0.48% (86 runs sampled)\ndeep-equal x 73,699 ops/sec ±0.55% (86 runs sampled)\ndeep-eql x 42,804 ops/sec ±0.45% (87 runs sampled)\nramda.equals x 15,119 ops/sec ±0.49% (87 runs sampled)\nutil.isDeepStrictEqual x 58,458 ops/sec ±0.56% (89 runs sampled)\nassert.deepStrictEqual x 583 ops/sec ±0.47% (87 runs sampled)\n\nThe fastest is fast-deep-equal\n```\n\nTo run benchmark (requires node.js 6+):\n\n```bash\nnpm install\nnpm run build\nnode benchmark\n```\n\n\n## License\n\n[MIT](https://github.com/epoberezkin/fast-deep-equal/blob/master/LICENSE)\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.6.0"
+    },
+    "1.0.0" : {
+      "name" : "fast-deep-equal",
+      "description" : "Fast deep equal",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/epoberezkin/fast-deep-equal.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/fast-deep-equal/-/fast-deep-equal-1.0.0.tgz",
+        "shasum" : "96256a3bc975595eb36d82e9929d060d893439ff"
+      },
+      "devDependencies" : {
+        "benchmark" : "^2.1.4",
+        "coveralls" : "^2.13.1",
+        "deep-eql" : "^2.0.2",
+        "deep-equal" : "^1.0.1",
+        "eslint" : "^4.0.0",
+        "lodash" : "^4.17.4",
+        "mocha" : "^3.4.2",
+        "nano-equal" : "^1.0.1",
+        "nyc" : "^11.0.2",
+        "pre-commit" : "^1.2.2",
+        "shallow-equal-fuzzy" : "0.0.2",
+        "underscore" : "^1.8.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "eslint" : "eslint *.js benchmark spec",
+        "test-spec" : "mocha spec/*.spec.js -R spec",
+        "test-cov" : "nyc npm run test-spec",
+        "test" : "npm run eslint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "esp",
+        "email" : "e.poberezkin@me.com"
+      },
+      "_id" : "fast-deep-equal@1.0.0",
+      "gitHead" : "b876854e5e56eb5baf79eb434d4bcb81f4c30b9a",
+      "nyc" : {
+        "exclude" : [ "**/spec/**", "node_modules" ],
+        "reporter" : [ "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fast-deep-equal-1.0.0.tgz_1497730970672_0.7519061632920057"
+      },
+      "_shasum" : "96256a3bc975595eb36d82e9929d060d893439ff",
+      "_nodeVersion" : "6.9.1"
+    },
+    "1.1.0" : {
+      "name" : "fast-deep-equal",
+      "description" : "Fast deep equal",
+      "version" : "1.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/epoberezkin/fast-deep-equal.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/fast-deep-equal/-/fast-deep-equal-1.1.0.tgz",
+        "shasum" : "c053477817c86b51daa853c81e059b733d023614"
+      },
+      "devDependencies" : {
+        "benchmark" : "^2.1.4",
+        "coveralls" : "^2.13.1",
+        "deep-eql" : "^2.0.2",
+        "deep-equal" : "^1.0.1",
+        "eslint" : "^4.0.0",
+        "lodash" : "^4.17.4",
+        "mocha" : "^3.4.2",
+        "nano-equal" : "^1.0.1",
+        "nyc" : "^11.0.2",
+        "pre-commit" : "^1.2.2",
+        "shallow-equal-fuzzy" : "0.0.2",
+        "typescript" : "^2.6.1",
+        "underscore" : "^1.8.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js", "index.d.ts" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "eslint" : "eslint *.js benchmark spec",
+        "test-spec" : "mocha spec/*.spec.js -R spec",
+        "test-cov" : "nyc npm run test-spec",
+        "test-ts" : "tsc --target ES5 --noImplicitAny index.d.ts",
+        "test" : "npm run eslint && npm run test-ts && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "esp",
+        "email" : "e.poberezkin@me.com"
+      },
+      "_id" : "fast-deep-equal@1.1.0",
+      "gitHead" : "4b879ceed561ad14665f50b1073f7107245ead1e",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "**/spec/**", "node_modules" ],
+        "reporter" : [ "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fast-deep-equal_1.1.0_1519591549336_0.5661688195911738"
+      },
+      "_shasum" : "c053477817c86b51daa853c81e059b733d023614",
+      "_nodeVersion" : "6.13.0"
+    },
+    "0.0.1" : {
+      "name" : "fast-deep-equal",
+      "description" : "Fast deep equal",
+      "version" : "0.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/epoberezkin/fast-deep-equal.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/fast-deep-equal/-/fast-deep-equal-0.0.1.tgz",
+        "shasum" : "18a9a0a1eb9f64308696c451e758e0dd593455cb"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "esp",
+        "email" : "e.poberezkin@me.com"
+      },
+      "_id" : "fast-deep-equal@0.0.1",
+      "gitHead" : "3d6d9ef5717f3fe1666e64d2d31271825cdba406",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fast-deep-equal-0.0.1.tgz_1497565588844_0.36595384287647903"
+      },
+      "_shasum" : "18a9a0a1eb9f64308696c451e758e0dd593455cb",
+      "_nodeVersion" : "6.9.1"
+    },
+    "0.1.0" : {
+      "name" : "fast-deep-equal",
+      "description" : "Fast deep equal",
+      "version" : "0.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/epoberezkin/fast-deep-equal.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "http://10.1.101.2:8081/artifactory/api/npm/sovos-npm-virtual/fast-deep-equal/-/fast-deep-equal-0.1.0.tgz",
+        "shasum" : "5c6f4599aba6b333ee3342e2ed978672f1001f8d"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.13.1",
+        "eslint" : "^4.0.0",
+        "mocha" : "^3.4.2",
+        "nyc" : "^11.0.2",
+        "pre-commit" : "^1.2.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "eslint" : "eslint *.js spec",
+        "test-spec" : "mocha spec/*.spec.js -R spec",
+        "test-cov" : "nyc npm run test-spec",
+        "test" : "npm run eslint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "esp",
+        "email" : "e.poberezkin@me.com"
+      },
+      "_id" : "fast-deep-equal@0.1.0",
+      "gitHead" : "7a8f904fcefb081adb45f3b293dccb4945e2e85c",
+      "nyc" : {
+        "exclude" : [ "**/spec/**", "node_modules" ],
+        "reporter" : [ "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fast-deep-equal-0.1.0.tgz_1497650347241_0.6521883145906031"
+      },
+      "_shasum" : "5c6f4599aba6b333ee3342e2ed978672f1001f8d",
+      "_nodeVersion" : "6.9.1"
+    }
+  },
+  "readme" : "",
+  "time" : {
+    "2.0.0" : "2018-04-28T09:07:16.594Z",
+    "2.0.1" : "2018-04-28T10:03:50.090Z",
+    "created" : "2017-06-15T22:26:29.798Z",
+    "3.0.0-beta.0" : "2019-07-07T13:39:58.009Z",
+    "3.0.0-beta.1" : "2019-07-07T16:45:05.499Z",
+    "modified" : "2019-07-07T16:45:08.214Z",
+    "1.0.0" : "2017-06-17T20:22:51.722Z",
+    "1.1.0" : "2018-02-25T20:45:49.397Z",
+    "0.0.1" : "2017-06-15T22:26:29.798Z",
+    "0.1.0" : "2017-06-16T21:59:08.238Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/epoberezkin/fast-deep-equal.git"
+  },
+  "users" : {
+    "ganeshkbhat" : true,
+    "jalik" : true,
+    "ksyrytczyk" : true,
+    "sxhyxnchxng" : true,
+    "colshacol" : true,
+    "chaoliu" : true
+  },
+  "readmeFilename" : "",
+  "license" : "MIT"
+}

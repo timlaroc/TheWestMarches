@@ -1,9 +1,8 @@
-export default class NewCharacterPrompts {
-    constructor () {
-        console.log('Do a thing.');
-    }
+const Discord = require('discord.js');
 
-    method (sendGreeting) {
+module.exports = class NewCharacterPrompts {
+
+    sendGreeting(message) {
         message.author.send('Welcome to the West Marches, a D&D 5e game! I will be helping you through your character creation process.')
         .then( () => {
             let now = new Date();
@@ -11,4 +10,5 @@ export default class NewCharacterPrompts {
         })
         .catch(console.error);
     }
+    
 }
