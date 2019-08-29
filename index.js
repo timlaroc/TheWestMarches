@@ -9,27 +9,37 @@ const token = 'NjE1OTc2NDgyMjc5MjYwMTYw.XWV22Q.Jcat0-PBAyScxia2_SnR1HzgQ_s';
 const PREFIX = '!';
 
 bot.on('ready', () => {
-    console.log('Ready to march on the west');
+    const now = new Date();
+    console.log(`${now}: Bot is on and ready.`);
 });
 
 bot.on('guildCreate', () => {
     // setup text channel for "bulletin board"
+    // setup other text channels
 });
 
 bot.on('message', (message) => {
     const args = message.content.substring(PREFIX.length).split(' ');
     const characterPrompts = new NewCharacterPrompts;
+    const character = new Character(message.author);
+
     switch (args[0]) {
         // character creation commands
         case 'createCharacter':
-            const character = new Character(message.member.displayName);
             characterPrompts.sendGreeting(message);
-            character.displayCharacter();
             break;
         case 'rollStats':
-        case 'chooseClass':
+            character.rollStats(message.author.id);
+            characterPrompts.sendConfirm(message.author);
+            break;
+        case 'confirmStats':
+            character.confirmStats(message.author);
+            break;
+        case 'selectClass':
+        case 'classList':
         case 'chooseRace':
         case 'chooseBackground':
+
         // stat commands
         case 'dexterity':
         case 'strength':
@@ -37,8 +47,10 @@ bot.on('message', (message) => {
         case 'wisdom':
         case 'charisma':
         case 'intelligence':
+
         // roll skill
         case 'roll':
+            
         // accepting a quest
     }
 });
