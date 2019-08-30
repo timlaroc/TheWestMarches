@@ -8,17 +8,19 @@ const CHAR_TEMPLATE = './src/Storage/CharacterData/CharacterDataTemplate.json';
 const EMBED_COLOR = 'DARK_GOLD';
 
 module.exports = class Character {
-    constructor(author) {
-        var PlayerData = JSON.parse(fs.readFileSync(CHAR_DATA));
-        var Template = JSON.parse(fs.readFileSync(CHAR_TEMPLATE));
-        const now = new Date();
+    constructor(author, initial) {
+        if (initial) {
+            var PlayerData = JSON.parse(fs.readFileSync(CHAR_DATA));
+            var Template = JSON.parse(fs.readFileSync(CHAR_TEMPLATE));
+            const now = new Date();
 
-        if(!PlayerData[author.username] && author.username !== 'The West Marches'){ 
-            PlayerData[author.username] = Template;
-            console.log(`${now}: New character created for ${author.username}`);
-            fs.writeFileSync(CHAR_DATA, JSON.stringify(PlayerData), (err) => {
-                if (err) console.error(err);
-            });
+            if(!this.doesPlayerHaveCharacter(author.username)){ 
+                PlayerData[author.username] = Template;
+                console.log(`${now}: New character created for ${author.username}`);
+                fs.writeFileSync(CHAR_DATA, JSON.stringify(PlayerData), (err) => {
+                    if (err) console.error(err);
+                });
+            }
         }
     }
 
@@ -36,28 +38,56 @@ module.exports = class Character {
         }).catch(console.error);
     }
 
+    setName(author) {
+        if(this.doesPlayerHaveCharacter(author.username)) {
+
+        }
+    }
+
     rollStats(author) {
         var PlayerData = JSON.parse(fs.readFileSync(CHAR_DATA));
         const now = new Date();
 
-        if(!PlayerData[author.username] && author.username !== 'The West Marches') {
-            author.send('You do not have a character already made. Please use !createCharacter '+ 
-            'to create a character first.').then(() => {
-                console.log(`${now}: Rolling Stats failed because ${author.username} does not have a Character.`);
-            }).catch(console.error);
-        } else {
-            console.log(`${now}: Rolling stats for ${author.username}`)
-            for(var i = 0; i < 6; i++) {
+        if(this.doesPlayerHaveCharacter(author.username)) {
+            if(PlayerData[author.username].StatScore.Rerolls < 3) {
+                console.log(`${now}: Rolling stats for ${author.username}`)
                 PlayerData[author.username].StatScore.Strength = this.rollAndDropLowest(4, 'd6');
                 PlayerData[author.username].StatScore.Dexterity = this.rollAndDropLowest(4, 'd6');
                 PlayerData[author.username].StatScore.Constitution = this.rollAndDropLowest(4, 'd6');
                 PlayerData[author.username].StatScore.Wisdom = this.rollAndDropLowest(4, 'd6');
                 PlayerData[author.username].StatScore.Intelligence = this.rollAndDropLowest(4, 'd6');
                 PlayerData[author.username].StatScore.Charisma = this.rollAndDropLowest(4, 'd6');
+                
+                if (PlayerData[author.username].StatScore.Rerolls++ === 3) {
+                    author.send(`You have now rerolled your stats 3 times, the below set will now ` +
+                        `automatically be confirmed for ${PlayerData[author.username].CharacterName}`)
+                        .then(() => {
+                            console.log(`${now}: Confirming stats for ${PlayerData[author.username].CharacterName}`);
+                            this.confirmStats(author);
+                        }).catch(console.error);
+                }
+
+                fs.writeFileSync(CHAR_DATA, JSON.stringify(PlayerData), (err) => {
+                    if (err) console.error(err);
+                });
+            } else {
+                author.send(`Stats have already been confirmed`);
             }
+        } else {
+            console.log(`${now}: Rolling Stats failed because ${author.username} does not have a character.`);
+        }
+    }
+
+    confirmStats(author) {
+        if(this.doesPlayerHaveCharacter(author.username)) {
+            var PlayerData = JSON.parse(fs.readFileSync(CHAR_DATA));
+            const now = new Date();
+
+            PlayerData[author.username].StatScore.Set = true;
             fs.writeFileSync(CHAR_DATA, JSON.stringify(PlayerData), (err) => {
                 if (err) console.error(err);
             });
+            console.log(`${now}: Stats have been confirmed for ${PlayerData[author.username].CharacterName}`);
         }
     }
 
@@ -91,6 +121,15 @@ module.exports = class Character {
             return total;
         } else {
             return output;
+        }
+    }
+
+    doesPlayerHaveCharacter(username) {
+        var PlayerData = JSON.parse(fs.readFileSync(CHAR_DATA));
+        if (!PlayerData[username] && username !== 'The West Marches') {
+            return false;
+        } else { 
+            return true;
         }
     }
 }

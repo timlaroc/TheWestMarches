@@ -5,7 +5,7 @@
     },
     "rollStats": {
         "command": "!rollStats",
-        "description": "This will generate your Character some stats. If you like the stats, use !confirmStats. Note that this will prevent your stats from being modified by this command in the future. If you do not like your stats, simply use the command again."
+        "description": "This will generate your Character some stats. You can only use this command a total of 3 times before your stats are automatically locked in. If you like the stats, use !confirmStats. Note that this will prevent your stats from being modified by this command in the future. If you do not like your stats, simply use the command again."
     },
     "classList": {
         "command": "!classList",

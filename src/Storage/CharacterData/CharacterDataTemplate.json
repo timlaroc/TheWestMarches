@@ -21,6 +21,7 @@
         "Wisdom": 10,
         "Intelligence": 10,
         "Charisma": 10,
+        "Rerolls": 0,
         "Set": false
     },
     "Health": {

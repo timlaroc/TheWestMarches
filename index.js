@@ -21,16 +21,20 @@ bot.on('guildCreate', () => {
 bot.on('message', (message) => {
     const args = message.content.substring(PREFIX.length).split(' ');
     const characterPrompts = new NewCharacterPrompts;
-    const character = new Character(message.author);
+    const character = new Character(message.author, false);
 
     switch (args[0]) {
         // character creation commands
         case 'createCharacter':
+            const newCharacter = new Character(message.author, true);
             characterPrompts.sendGreeting(message);
+            break;
+        case 'setName':
+            character.setName(message.author);
             break;
         case 'rollStats':
             character.rollStats(message.author);
-            characterPrompts.sendConfirm(message);
+            characterPrompts.sendConfirmStats(message);
             break;
         case 'confirmStats':
             character.confirmStats(message.author);
@@ -50,7 +54,7 @@ bot.on('message', (message) => {
 
         // roll skill
         case 'roll':
-            
+
         // accepting a quest
     }
 });
