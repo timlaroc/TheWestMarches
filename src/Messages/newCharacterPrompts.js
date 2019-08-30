@@ -30,4 +30,8 @@ module.exports = class NewCharacterPrompts {
       console.log(`${now}: Character Creation Embed sent to ${message.author.username}`);
     }).catch(console.error);
   }
+
+  sendConfirm(message) {
+      
+  }
 };

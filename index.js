@@ -29,8 +29,8 @@ bot.on('message', (message) => {
             characterPrompts.sendGreeting(message);
             break;
         case 'rollStats':
-            character.rollStats(message.author.id);
-            characterPrompts.sendConfirm(message.author);
+            character.rollStats(message.author);
+            characterPrompts.sendConfirm(message);
             break;
         case 'confirmStats':
             character.confirmStats(message.author);
