@@ -1,6 +1,7 @@
 // import Encounters from './encounters.js';
 const Character = require('./src/Characters/character');
 const Discord = require('discord.js');
+const Help = require('./src/help');
 
 // bot setup
 const bot = new Discord.Client();
@@ -20,6 +21,7 @@ bot.on('guildCreate', () => {
 bot.on('message', (message) => {
     const args = message.content.substring(PREFIX.length).split(' ');
     const character = new Character(message.author, false);
+    const help = new Help();
 
     switch (args[0]) {
         // character creation commands
@@ -28,17 +30,30 @@ bot.on('message', (message) => {
             newCharacter.sendGreeting(message);
             break;
         case 'setName':
-            character.setName(message.author);
+            if (args[1]) {
+                args.shift();
+                character.setName(message.author, args);
+            } else {
+                help.sendBadCommandFormat(message, 'setName');
+            }
             break;
         case 'rollStats':
             character.rollStats(message.author);
-            characterPrompts.sendConfirmStats(message);
+            character.sendStatsAndConfirmation(message);
             break;
         case 'confirmStats':
             character.confirmStats(message.author);
             break;
         case 'selectClass':
+            if (args[1]) {
+                character.selectClass(message.author, args[1]);
+            } else {
+                help.sendBadCommandFormat(message, 'selectClass');
+            }
+            break;
         case 'classList':
+            character.sendClassList();
+            break;
         case 'chooseRace':
         case 'chooseBackground':
 
@@ -54,6 +69,14 @@ bot.on('message', (message) => {
         case 'roll':
 
         // accepting a quest
+
+        // help command
+        case 'help':
+            if (args[1]) {
+                help.helpMessage(args[1]);
+            } else {
+                help.sendBadCommandFormat(message, 'help');
+            }
     }
 });
 

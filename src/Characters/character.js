@@ -5,6 +5,7 @@ const fs = require('fs');
 
 const CHAR_DATA = './src/Storage/CharacterData/CharacterData.json';
 const CHAR_TEMPLATE = './src/Storage/CharacterData/CharacterDataTemplate.json';
+const COMMANDS = './src/Storage/CommandsWithDescriptions.json';
 const EMBED_COLOR = 'DARK_GOLD';
 
 module.exports = class Character {
@@ -14,7 +15,7 @@ module.exports = class Character {
             var Template = JSON.parse(fs.readFileSync(CHAR_TEMPLATE));
             const now = new Date();
 
-            if(!this.doesPlayerHaveCharacter(author.username)){ 
+            if(!this.checkIfCharacterExistsAndSendMessage(author)){ 
                 PlayerData[author.username] = Template;
                 console.log(`${now}: New character created for ${author.username}`);
                 fs.writeFileSync(CHAR_DATA, JSON.stringify(PlayerData), (err) => {
@@ -38,9 +39,20 @@ module.exports = class Character {
         }).catch(console.error);
     }
 
-    setName(author) {
-        if(this.doesPlayerHaveCharacter(author.username)) {
+    setName(author, characterName) {
+        if(this.checkIfCharacterExistsAndSendMessage(author)) {
+            const now = new Date();
+            var PlayerData = JSON.parse(fs.readFileSync(CHAR_DATA));
+            PlayerData[author.username].CharacterName = characterName.join(" ");
 
+            fs.writeFileSync(CHAR_DATA, JSON.stringify(PlayerData), (err) => {
+                if (err) console.error(err);
+            });
+
+            author.send(`Your character name has been set to ${PlayerData[author.username].CharacterName}`)
+            .then(() => {
+                console.log(`${now}: Sending character name confirmation to ${author.username}`);
+            }).catch(console.error);
         }
     }
 
@@ -48,8 +60,8 @@ module.exports = class Character {
         var PlayerData = JSON.parse(fs.readFileSync(CHAR_DATA));
         const now = new Date();
 
-        if(this.doesPlayerHaveCharacter(author.username)) {
-            if(PlayerData[author.username].StatScore.Rerolls < 3) {
+        if(this.checkIfCharacterExistsAndSendMessage(author)) {
+            if(PlayerData[author.username].StatScore.Rerolls < 3 && !PlayerData[author.username].StatScore.Set) {
                 console.log(`${now}: Rolling stats for ${author.username}`)
                 PlayerData[author.username].StatScore.Strength = this.rollAndDropLowest(4, 'd6');
                 PlayerData[author.username].StatScore.Dexterity = this.rollAndDropLowest(4, 'd6');
@@ -74,7 +86,7 @@ module.exports = class Character {
     }
 
     confirmStats(author) {
-        if(this.doesPlayerHaveCharacter(author.username)) {
+        if(this.checkIfCharacterExistsAndSendMessage(author)) {
             var PlayerData = JSON.parse(fs.readFileSync(CHAR_DATA));
             const now = new Date();
 
@@ -82,7 +94,7 @@ module.exports = class Character {
             fs.writeFileSync(CHAR_DATA, JSON.stringify(PlayerData), (err) => {
                 if (err) console.error(err);
             });
-            console.log(`${now}: Stats have been confirmed for ${PlayerData[author.username].CharacterName}`);
+            console.log(`${now}: Stats have been confirmed for ${author.username}[${PlayerData[author.username].CharacterName}]`);
         }
     }
 
@@ -154,7 +166,7 @@ module.exports = class Character {
     }
 
     sendStatsAndConfirmation(message) {
-        this.sendStats(message);
+        this.sendStats(message.author);
         this.sendConfirmStats(message);
     }
 
@@ -185,7 +197,7 @@ module.exports = class Character {
             var embed = new Discord.RichEmbed();
             let username = author.username;
 
-            embed.setTitle(`New Stats for ${PlayerData[username].CharacterName}`)
+            embed.setTitle(`Stats for ${PlayerData[username].CharacterName}`)
                 .setColor(EMBED_COLOR)
                 .addField('Strength', PlayerData[username].StatScore.Strength)
                 .addField('Dexterity', PlayerData[username].StatScore.Dexterity)
@@ -200,13 +212,13 @@ module.exports = class Character {
     }
 
     sendConfirmStats(message) {
-        if (this.checkIfCharacterExistsAndSendMessage(message)) {
+        if (this.checkIfCharacterExistsAndSendMessage(message.author)) {
             const now = new Date();
             var PlayerData = JSON.parse(fs.readFileSync(CHAR_DATA));
             let username = message.author.username;
 
             const rerollsRemaining = 3 - PlayerData[username].StatScore.Rerolls
-            if (rerollsRemaining < 3) {
+            if (rerollsRemaining < 3 && !PlayerData[username].StatScore.Set) {
                 message.author.send('If you like the below stats, please reply with !confirmStats. ' +
                     `Otherwise, please !rollStats again. You have ${rerollsRemaining} uses remaining.`)
                     .then(() => {
@@ -216,9 +228,9 @@ module.exports = class Character {
         }
     }
 
-    checkIfCharacterExistsAndSendMessage(message) {
-        if(!this.doesPlayerHaveCharacter(message.author.username)) {
-            this.tellPlayerToMakeCharacter(message.author);
+    checkIfCharacterExistsAndSendMessage(author) {
+        if(!this.doesPlayerHaveCharacter(author.username)) {
+            this.tellPlayerToMakeCharacter(author);
             return false;
         } else {
             return true;
