@@ -4,4 +4,16 @@ modules.export = class CharacterClass {
     constructor() {
 
     }
+
+    levelUp() {
+
+    }
+
+    increaseHitDice() {
+
+    }
+
+    checkProficiencyBonus() {
+        
+    }
 }

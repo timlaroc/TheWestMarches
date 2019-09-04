@@ -29,7 +29,6 @@
         "CurrentHitPoints": 0,
         "MaximumHitDice": 1,
         "CurrentHitDice": 1,
-        "HitDie": "d6",
         "TemporaryHitPoints": 0,
         "DeathSaves": {
             "Failures": 0,
