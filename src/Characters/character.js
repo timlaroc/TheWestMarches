@@ -15,7 +15,7 @@ module.exports = class Character {
             var Template = JSON.parse(fs.readFileSync(CHAR_TEMPLATE));
             const now = new Date();
 
-            if(!this.checkIfCharacterExistsAndSendMessage(author)){ 
+            if(!this.doesPlayerHaveCharacter(author)){ 
                 PlayerData[author.username] = Template;
                 console.log(`${now}: New character created for ${author.username}`);
                 fs.writeFileSync(CHAR_DATA, JSON.stringify(PlayerData), (err) => {
@@ -157,7 +157,8 @@ module.exports = class Character {
             .setColor(EMBED_COLOR)
             .addField(commands['rollStats'].command, commands['rollStats'].description)
             .addField(commands['classList'].command, commands['classList'].description)
-            .addField(commands['selectClass'].command, commands['selectClass'].description);
+            .addField(commands['selectClass'].command, commands['selectClass'].description)
+            .addField(commands['setName'].command, commands['setName'].description);
             
         message.author.send(embed).then(() => {
             const now = new Date();

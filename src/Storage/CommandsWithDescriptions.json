@@ -1,7 +1,7 @@
 {
     "selectClass": {
         "command": "!selectClass [class name]",
-        "description": "This will display the list of classes alongside the primary stat that the class uses."
+        "description": "This will set your character's class for you. Be careful! This can only be set once!"
     },
     "rollStats": {
         "command": "!rollStats",
@@ -10,5 +10,13 @@
     "classList": {
         "command": "!classList",
         "description": "This will display the list of classes alongside the primary stat that the class uses."
+    },
+    "setName": {
+        "command": "!setName [character name]",
+        "description": "This will set your character name for you. Be careful! This can only be set once!"
+    },
+    "createCharacter": {
+        "command": "!createCharacter",
+        "description": "If you have not already made a character with this bot, this will create a baseline character for you and provide you with further steps to creating your character using the bot."
     }
 }

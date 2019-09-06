@@ -77,6 +77,11 @@ bot.on('message', (message) => {
             } else {
                 help.sendBadCommandFormat(message, 'help');
             }
+            break;
+
+        // default behavior if a command has not been definied
+        default:
+            help.sendBadCommandFormat(message);
     }
 });
 
